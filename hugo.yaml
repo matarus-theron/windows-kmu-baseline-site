@@ -54,4 +54,4 @@ params:
 
   editURL:
     enable: false
-    base: "https://github.com/matarus-theron/windows-kmu-baseline-site"
+    base: "https://matarus-theron.github.io/windows-kmu-baseline-site/"
