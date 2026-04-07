@@ -15,6 +15,7 @@ Ein technisch sauberes, modular aufgebautes Hardening- und Policy-Paket für **W
 
 {{< cards cols="2" >}}
   {{< card link="/de/product" title="Produkt" subtitle="Varianten, Kernumfang und Scope von v1" icon="cube" >}}
+  {{< card link="/de/pricing" title="Pricing" subtitle="Solo und Team im Überblick" icon="scale" >}}
   {{< card link="/de/docs/get-started" title="Get Started" subtitle="Empfohlener Einstieg für Pilot und erste Prüfung" icon="play" >}}
   {{< card link="/de/buy" title="Kaufen" subtitle="Produktvarianten und Kaufvorbereitung" icon="credit-card" >}}
   {{< card link="/de/docs" title="Dokumentation" subtitle="Technischer Einstieg, Support-Scope und Orientierung" icon="book-open" >}}

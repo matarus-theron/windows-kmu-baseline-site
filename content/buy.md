@@ -1,58 +1,57 @@
 ---
 title: Kaufen
-description: Varianten, Lieferrahmen und Kaufvorbereitung.
+description: Kaufvorbereitung, Lieferrahmen und geplanter Ablauf.
 ---
 
 # Kaufen
 
-Diese Seite beschreibt die geplanten **Produktvarianten** und den späteren **Kauf- und Lieferrahmen** des **Windows KMU Baseline Pack**.
+Diese Seite beschreibt den geplanten Kauf- und Lieferrahmen des **Windows KMU Baseline Pack**.
 
 {{< callout type="important" >}}
-Der öffentliche Checkout ist noch nicht final freigeschaltet. Diese Seite ist aktuell eine strukturierte Kaufvorbereitung.
+Der öffentliche Checkout ist noch nicht final freigeschaltet. Diese Seite ist aktuell ein strukturierter Kauf-Placeholder.
 {{< /callout >}}
 
-## Varianten
+## Geplante Varianten
 
 {{< cards cols="2" >}}
-  {{< card title="Solo" subtitle="Geplant für kleine Setups bis 5 Geräte" tag="v1" tagColor="green" >}}
-  {{< card title="Team" subtitle="Geplant für kleine Umgebungen bis 25 Geräte" tag="v1" tagColor="green" >}}
+  {{< card link="/de/pricing" title="Solo" subtitle="Für kleine Setups bis 5 Geräte" tag="v1" tagColor="green" >}}
+  {{< card link="/de/pricing" title="Team" subtitle="Für kleine Umgebungen bis 25 Geräte" tag="v1" tagColor="green" >}}
 {{< /cards >}}
 
-## Geplanter Lieferrahmen
+## Geplanter Kaufablauf
 
-Vorgesehen ist ein klar abgegrenztes Produktpaket für lokale Anwendung in kleinen Windows-11-Umgebungen ohne Active Directory. Der konkrete Kauf- und Lieferprozess wird später auf dieser Seite ergänzt. :contentReference[oaicite:13]{index=13}
+1. Produktvariante auswählen
+2. Scope und Support-Matrix prüfen
+3. Pre-Deploy-Checkliste durchgehen
+4. Kauf abschließen
+5. Produktpaket erhalten
+6. zuerst auf einem Pilotgerät testen
 
-## Was Käufer inhaltlich erwarten sollen
+## Was Käufer erwarten sollen
 
-- klarer v1-Scope
+- klar abgegrenzter v1-Scope
 - dokumentierte Produktgrenzen
 - technische Begleitdokumentation
-- Fokus auf lokale Anwendbarkeit
-- konservative Rollout-Empfehlung mit Pilotgerät zuerst :contentReference[oaicite:14]{index=14}
+- Fokus auf lokale Anwendung via LGPO.exe
+- konservative Empfehlung: Pilotgerät zuerst :contentReference[oaicite:1]{index=1}
+
+## Was aktuell noch nicht öffentlich freigeschaltet ist
+
+- finaler Checkout
+- Preisangaben
+- automatischer Download-Flow
+- öffentlicher Kaufbutton
+- finaler Lieferprozess
 
 ## Vor dem Kauf prüfen
 
-- passt das Zielsystem in die Support-Matrix?
-- ist der Einsatzbereich wirklich Workgroup / kleines Setup?
-- wurden Checkliste und FAQ gelesen?
-- ist ein Pilotgerät vorgesehen?
-- ist Backup / Snapshot / Recovery eingeplant? :contentReference[oaicite:15]{index=15}
-
-## Noch nicht enthalten
-
-- öffentlicher Checkout
-- finale Preisangaben
-- automatischer Download-Flow
-- freigeschalteter Kaufbutton
-
-## Vorbereitung
-
 - [Produkt](/de/product)
+- [Pricing](/de/pricing)
 - [Get Started](/de/docs/get-started)
 - [Support-Matrix](/de/docs/support-matrix)
 - [Pre-Deploy-Checkliste](/de/docs/pre-deploy-checklist)
 - [FAQ](/de/docs/faq)
 
 {{< callout type="warning" >}}
-Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen.
+Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen und **Backup / Snapshot / Recovery** einplanen. :contentReference[oaicite:2]{index=2}
 {{< /callout >}}

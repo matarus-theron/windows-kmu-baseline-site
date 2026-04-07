@@ -15,6 +15,7 @@ A technically clean, modular hardening and policy package for **Windows 11 Pro**
 
 {{< cards cols="2" >}}
   {{< card link="/en/product" title="Product" subtitle="Editions, core scope and boundaries of v1" icon="cube" >}}
+  {{< card link="/en/pricing" title="Pricing" subtitle="Solo and Team at a glance" icon="scale" >}}
   {{< card link="/en/docs/get-started" title="Get Started" subtitle="Recommended starting point for pilot and initial review" icon="play" >}}
   {{< card link="/en/buy" title="Buy" subtitle="Product editions and purchase preparation" icon="credit-card" >}}
   {{< card link="/en/docs" title="Documentation" subtitle="Technical entry point, support scope and orientation" icon="book-open" >}}
