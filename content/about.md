@@ -27,3 +27,7 @@ Ziel ist ein klar abgegrenztes, technisch sauberes und verkaufbares Produkt für
 ## Repository
 
 - [Produkt-Repository](https://github.com/matarus-theron/windows-kmu-baseline-pack)
+
+## Website
+
+Diese Website ist die öffentliche Produkt-, Dokumentations- und Orientierungsschicht des Projekts. Die technische Source of Truth bleibt das Produkt-Repository. :contentReference[oaicite:2]{index=2}

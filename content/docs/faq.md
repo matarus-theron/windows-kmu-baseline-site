@@ -39,3 +39,9 @@ Nein. Erst Pilotgerät, dann prüfen, dann gezielt ausrollen.
 ## Ist das ein Beratungsprodukt?
 
 Nein. Ziel ist ein klar abgegrenztes, produktisiertes Paket.
+
+## Weiter
+
+- [Get Started](/de/docs/get-started)
+- [Produkt](/de/product)
+- [Pricing](/de/pricing)

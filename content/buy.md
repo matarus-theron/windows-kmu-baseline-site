@@ -55,3 +55,7 @@ Der öffentliche Checkout ist noch nicht final freigeschaltet. Diese Seite ist a
 {{< callout type="warning" >}}
 Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen und **Backup / Snapshot / Recovery** einplanen. :contentReference[oaicite:2]{index=2}
 {{< /callout >}}
+
+## Lieferung
+
+- [Lieferrahmen](/de/delivery)

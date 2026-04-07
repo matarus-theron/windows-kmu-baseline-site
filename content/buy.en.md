@@ -55,3 +55,7 @@ Public checkout is not yet finally enabled. This page currently serves as a stru
 {{< callout type="warning" >}}
 Before production use, always test on a **pilot device** first and plan for **backup / snapshot / recovery**. :contentReference[oaicite:4]{index=4}
 {{< /callout >}}
+
+## Delivery
+
+- [Delivery framework](/en/delivery)

@@ -55,3 +55,9 @@ Das Produkt ist bewusst **modular**, **lokal anwendbar** und auf einen **klar be
 - [Pre-Deploy-Checkliste](/de/docs/pre-deploy-checklist)
 - [FAQ](/de/docs/faq)
 - [Kaufen](/de/buy)
+
+## Nächste Schritte
+
+- [Pricing](/de/pricing)
+- [Kaufen](/de/buy)
+- [Lieferrahmen](/de/delivery)

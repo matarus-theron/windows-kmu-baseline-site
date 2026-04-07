@@ -60,6 +60,7 @@ Geeignet für:
 - [FAQ](/de/docs/faq)
 - [Kaufen](/de/buy)
 
-## Nächster Schritt
+## Nächste Schritte
 
 - [Kaufen](/de/buy)
+- [Lieferrahmen](/de/delivery)

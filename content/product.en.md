@@ -55,3 +55,9 @@ The product is deliberately **modular**, **locally applicable** and built around
 - [Pre-Deployment Checklist](/en/docs/pre-deploy-checklist)
 - [FAQ](/en/docs/faq)
 - [Buy](/en/buy)
+
+## Next steps
+
+- [Pricing](/en/pricing)
+- [Buy](/en/buy)
+- [Delivery](/en/delivery)

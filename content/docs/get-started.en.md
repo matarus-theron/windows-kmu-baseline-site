@@ -43,3 +43,10 @@ This product is intended for small businesses without an internal IT department 
 ## No public rollout shortcut yet
 
 This page is deliberately conservative. It does not replace product documentation, license documents or controlled testing on a pilot device.
+
+## Further reading
+
+- [Support Matrix](/en/docs/support-matrix)
+- [Pre-Deployment Checklist](/en/docs/pre-deploy-checklist)
+- [FAQ](/en/docs/faq)
+- [Product](/en/product)

@@ -39,3 +39,9 @@ No. Pilot device first, then review, then roll out selectively.
 ## Is this a consulting product?
 
 No. The goal is a clearly scoped, productized package.
+
+## Next
+
+- [Get Started](/en/docs/get-started)
+- [Product](/en/product)
+- [Pricing](/en/pricing)

@@ -60,6 +60,7 @@ Suitable for:
 - [FAQ](/en/docs/faq)
 - [Buy](/en/buy)
 
-## Next step
+## Next steps
 
 - [Buy](/en/buy)
+- [Delivery](/en/delivery)

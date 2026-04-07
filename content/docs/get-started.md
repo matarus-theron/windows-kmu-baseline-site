@@ -43,3 +43,10 @@ Das Produkt ist für kleine Unternehmen ohne eigene IT-Abteilung gedacht, die ei
 ## Noch kein öffentlicher Rollout-Shortcut
 
 Diese Seite ist bewusst konservativ gehalten. Sie ersetzt keine produktbegleitende Doku, keine Lizenzunterlagen und keinen kontrollierten Test auf einem Pilotgerät.
+
+## Weiterführend
+
+- [Support-Matrix](/de/docs/support-matrix)
+- [Pre-Deploy-Checkliste](/de/docs/pre-deploy-checklist)
+- [FAQ](/de/docs/faq)
+- [Produkt](/de/product)
