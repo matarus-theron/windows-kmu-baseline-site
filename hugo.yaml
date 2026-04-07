@@ -63,9 +63,22 @@ menu:
       weight: 8
       params:
         type: search
+    - identifier: language
+      name: Language
+      weight: 9
+      params:
+        type: language-switch
+        label: false
+        icon: globe-alt
+    - identifier: theme
+      name: Theme
+      weight: 10
+      params:
+        type: theme-toggle
+        label: false
     - identifier: github
       name: GitHub
-      weight: 9
+      weight: 11
       url: "https://github.com/matarus-theron/windows-kmu-baseline-pack"
       params:
         icon: github
@@ -73,11 +86,24 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: favicon.svg
+      dark: favicon-dark.svg
+      link: /
+      width: 28
+      height: 28
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: false
+
+  images:
+    - "/images/og-default.png"
+
+  theme:
+    default: system
+    displayToggle: true
 
   editURL:
     enable: false
