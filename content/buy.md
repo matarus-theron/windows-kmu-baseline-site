@@ -1,48 +1,49 @@
 ---
 title: Kaufen
-description: Kauf- und Lieferinformationen zum Windows KMU Baseline Pack.
+description: Varianten, Lieferrahmen und Kaufvorbereitung.
 ---
 
 # Kaufen
 
-Diese Seite bereitet den späteren Kauf- und Lieferprozess für das **Windows KMU Baseline Pack** vor.
+Diese Seite beschreibt die geplanten **Produktvarianten** und den späteren **Kauf- und Lieferrahmen** des **Windows KMU Baseline Pack**.
 
 {{< callout type="important" >}}
-Der öffentliche Checkout ist noch nicht final freigeschaltet. Diese Seite dient aktuell als strukturierte Produkt- und Kaufvorbereitung.
+Der öffentliche Checkout ist noch nicht final freigeschaltet. Diese Seite ist aktuell eine strukturierte Kaufvorbereitung.
 {{< /callout >}}
 
-## Geplante Varianten
+## Varianten
 
 {{< cards cols="2" >}}
-  {{< card link="/de/product" title="Solo" subtitle="Geplant für kleine Setups bis 5 Geräte" tag="v1" tagColor="green" >}}
-  {{< card link="/de/product" title="Team" subtitle="Geplant für kleine Umgebungen bis 25 Geräte" tag="v1" tagColor="green" >}}
+  {{< card title="Solo" subtitle="Geplant für kleine Setups bis 5 Geräte" tag="v1" tagColor="green" >}}
+  {{< card title="Team" subtitle="Geplant für kleine Umgebungen bis 25 Geräte" tag="v1" tagColor="green" >}}
 {{< /cards >}}
+
+## Geplanter Lieferrahmen
+
+Vorgesehen ist ein klar abgegrenztes Produktpaket für lokale Anwendung in kleinen Windows-11-Umgebungen ohne Active Directory. Der konkrete Kauf- und Lieferprozess wird später auf dieser Seite ergänzt. :contentReference[oaicite:13]{index=13}
+
+## Was Käufer inhaltlich erwarten sollen
+
+- klarer v1-Scope
+- dokumentierte Produktgrenzen
+- technische Begleitdokumentation
+- Fokus auf lokale Anwendbarkeit
+- konservative Rollout-Empfehlung mit Pilotgerät zuerst :contentReference[oaicite:14]{index=14}
 
 ## Vor dem Kauf prüfen
 
 - passt das Zielsystem in die Support-Matrix?
 - ist der Einsatzbereich wirklich Workgroup / kleines Setup?
-- wurden Pre-Deploy-Checkliste und FAQ gelesen?
+- wurden Checkliste und FAQ gelesen?
 - ist ein Pilotgerät vorgesehen?
-- ist Backup / Snapshot / Recovery eingeplant? :contentReference[oaicite:1]{index=1}
+- ist Backup / Snapshot / Recovery eingeplant? :contentReference[oaicite:15]{index=15}
 
-## Was v1 abdeckt
+## Noch nicht enthalten
 
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update :contentReference[oaicite:2]{index=2}
-
-## Was nicht enthalten ist
-
-- Active Directory / Domain GPO
-- Intune / MDM / Autopilot
-- Windows Server
-- Office / M365 Hardening
-- Adobe / Acrobat Hardening
-- Zero-Touch-Rollout
-- WDAC als Kernbestandteil
-- Exploit Protection als Kernbestandteil :contentReference[oaicite:3]{index=3}
+- öffentlicher Checkout
+- finale Preisangaben
+- automatischer Download-Flow
+- freigeschalteter Kaufbutton
 
 ## Vorbereitung
 

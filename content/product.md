@@ -1,6 +1,6 @@
 ---
 title: Produkt
-description: Produktübersicht und Varianten des Windows KMU Baseline Pack.
+description: Scope, Zielgruppe und Kernumfang des Windows KMU Baseline Pack.
 ---
 
 # Produkt
@@ -11,12 +11,12 @@ Das **Windows KMU Baseline Pack** ist ein produktisiertes Hardening- und Policy-
 v1 ist bewusst **eng begrenzt**: Windows 11 Pro, 24H2, de-DE und en-US, kleine Workgroup-Umgebungen, lokale Anwendung. :contentReference[oaicite:2]{index=2}
 {{< /callout >}}
 
-## Varianten
+## Für wen das Produkt gedacht ist
 
-{{< cards cols="2" >}}
-  {{< card title="Solo" subtitle="Für kleine Setups bis 5 Geräte" tag="v1" tagColor="green" >}}
-  {{< card title="Team" subtitle="Für kleine Umgebungen bis 25 Geräte" tag="v1" tagColor="green" >}}
-{{< /cards >}}
+- kleine Unternehmen ohne eigene IT-Abteilung
+- Einzelgeräte und kleine Workgroup-Umgebungen
+- Windows-11-Setups ohne Active Directory
+- konservative, dokumentierte lokale Baseline-Härtung
 
 ## Kernumfang von v1
 
@@ -25,14 +25,15 @@ v1 ist bewusst **eng begrenzt**: Windows 11 Pro, 24H2, de-DE und en-US, kleine W
 - UAC / LSA
 - Windows Update :contentReference[oaicite:3]{index=3}
 
-## Geeignet für
+## Unterstützter Rahmen
 
-- kleine Unternehmen ohne eigene IT-Abteilung
-- Einzelgeräte und kleine Workgroup-Umgebungen
-- Umgebungen ohne Active Directory
-- konservative, dokumentierte lokale Baseline-Härtung
+- Windows 11 Pro
+- Version 24H2
+- de-DE
+- en-US
+- lokales Deployment via LGPO.exe :contentReference[oaicite:4]{index=4}
 
-## Nicht enthalten
+## Nicht im Scope von v1
 
 - Active Directory / Domain GPO
 - Intune / MDM / Autopilot
@@ -41,14 +42,11 @@ v1 ist bewusst **eng begrenzt**: Windows 11 Pro, 24H2, de-DE und en-US, kleine W
 - Adobe / Acrobat Hardening
 - Zero-Touch-Rollout
 - WDAC als Kernbestandteil
-- Exploit Protection als Kernbestandteil :contentReference[oaicite:4]{index=4}
+- Exploit Protection als Kernbestandteil :contentReference[oaicite:5]{index=5}
 
-## Vor dem Einsatz
+## Arbeitsweise
 
-- Zielsystem gegen die Support-Matrix prüfen
-- Pre-Deploy-Checkliste durchgehen
-- Pilotgerät zuerst
-- Backup / Snapshot / Recovery sicherstellen :contentReference[oaicite:5]{index=5}
+Das Produkt ist bewusst **modular**, **lokal anwendbar** und auf einen **klar begrenzten Support-Scope** ausgerichtet. Ziel ist ein verkaufbares Paket, nicht ein beratungsabhängiges Workshop-Modell. :contentReference[oaicite:6]{index=6}
 
 ## Weiter
 
@@ -56,3 +54,4 @@ v1 ist bewusst **eng begrenzt**: Windows 11 Pro, 24H2, de-DE und en-US, kleine W
 - [Support-Matrix](/de/docs/support-matrix)
 - [Pre-Deploy-Checkliste](/de/docs/pre-deploy-checklist)
 - [FAQ](/de/docs/faq)
+- [Kaufen](/de/buy)
