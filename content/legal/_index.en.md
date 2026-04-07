@@ -1,17 +1,17 @@
 ---
 title: Legal
-description: Rechtliche Hinweise, Lizenz und Datenschutz.
+description: Legal notices, license and privacy information.
 ---
 
 # Legal
 
-Auf dieser Seite finden sich die grundlegenden rechtlichen Hinweise zum Windows KMU Baseline Pack.
+This section provides the basic legal information for the Windows KMU Baseline Pack.
 
-## Inhalte
+## Contents
 
-- [Lizenz](/legal/license)
-- [Datenschutz](/legal/privacy)
+- [License](/en/legal/license)
+- [Privacy](/en/legal/privacy)
 
-## Hinweis
+## Note
 
-Die technischen und produktbezogenen Inhalte der Website dienen der Orientierung. Maßgeblich bleiben die jeweils bereitgestellten Vertrags-, Lizenz- und Begleitdokumente des Produkts.
+The technical and product-related content on this website is provided for orientation. The binding terms remain the license, contract and accompanying documents provided with the product.

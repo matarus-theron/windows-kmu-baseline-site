@@ -1,20 +1,20 @@
 ---
-title: Datenschutz
-description: Grundlegende Hinweise zum Datenschutz.
+title: Privacy
+description: Basic privacy information.
 ---
 
-# Datenschutz
+# Privacy
 
-Diese Website stellt Informationen zum Windows KMU Baseline Pack bereit.
+This website provides information about the Windows KMU Baseline Pack.
 
-## Grundsatz
+## General principle
 
-Beim Betrieb und bei der Nutzung dieser Website können technisch erforderliche Daten verarbeitet werden, etwa zur Bereitstellung der Website, zur Sicherheit des Betriebs und zur Fehleranalyse.
+Technically required data may be processed when operating and using this website, for example to provide the website, ensure operational security and analyze errors.
 
-## Produktbezug
+## Product context
 
-Das Windows KMU Baseline Pack ist ein technisches Produkt für kleine Unternehmen ohne eigene IT-Abteilung. Der Umgang mit Daten im Zusammenhang mit Produktkauf, Support oder Kontaktaufnahme richtet sich nach den jeweils bereitgestellten Datenschutzinformationen und den konkret eingesetzten Diensten. :contentReference[oaicite:3]{index=3}
+Windows KMU Baseline Pack is a technical product for small businesses without an internal IT department. The handling of data related to product purchase, support or contact requests depends on the privacy information and services used in each specific case. :contentReference[oaicite:3]{index=3}
 
-## Hinweis
+## Note
 
-Diese Seite ist eine öffentliche Kurzfassung und ersetzt keine vollständige Datenschutzerklärung.
+This page is a short public summary and does not replace a full privacy notice.

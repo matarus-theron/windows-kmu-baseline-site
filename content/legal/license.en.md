@@ -1,19 +1,19 @@
 ---
-title: Lizenz
-description: Grundlegende Lizenzhinweise zum Windows KMU Baseline Pack.
+title: License
+description: Basic license information for the Windows KMU Baseline Pack.
 ---
 
-# Lizenz
+# License
 
-Das Windows KMU Baseline Pack ist ein produktisiertes B2B-Produkt für kleine Windows-Umgebungen ohne Active Directory. Die Nutzung richtet sich nach den jeweils mit dem Produkt bereitgestellten Lizenzbedingungen. :contentReference[oaicite:1]{index=1}
+Windows KMU Baseline Pack is a productized B2B offering for small Windows environments without Active Directory. Use of the product is governed by the license terms provided with the product. :contentReference[oaicite:1]{index=1}
 
-## Wichtige Grundsätze
+## Key principles
 
-- Das Produkt ist nicht als freie Open-Source-Software bereitgestellt.
-- Der konkrete Nutzungsumfang richtet sich nach der jeweils erworbenen Produktvariante.
-- Support, Haftung und Einsatzgrenzen sind Teil der begleitenden Produktdokumentation.
-- Vor produktivem Einsatz sollten Backup, Snapshot und ein Pilotgerät eingeplant werden. :contentReference[oaicite:2]{index=2}
+- The product is not provided as free open-source software.
+- The permitted scope of use depends on the purchased product variant.
+- Support boundaries, liability limits and deployment boundaries are part of the accompanying product documentation.
+- Before production use, backup, snapshot and a pilot device should be planned. :contentReference[oaicite:2]{index=2}
 
-## Hinweis
+## Note
 
-Diese Seite ist eine öffentliche Kurzfassung. Maßgeblich sind die jeweils mit dem Produkt ausgelieferten Lizenz- und Vertragsunterlagen.
+This page is a short public summary. The binding terms are the license and contract documents delivered with the product.
