@@ -15,7 +15,7 @@ Diese Website ist die öffentliche Produkt- und Dokumentationsschicht. Die techn
 
 {{< cards cols="2" >}}
   {{< card link="/de/docs/support-matrix" title="Support-Matrix" subtitle="Unterstützte und nicht unterstützte Plattformen und Szenarien" icon="shield-check" >}}
-  {{< card link="/de/docs/get-started" title="Get Started" subtitle="Empfohlener Einstieg in Test und Pilotgerät" icon="play-circle" >}}
+  {{< card link="/de/docs/get-started" title="Get Started" subtitle="Empfohlener Einstieg in Test und Pilotgerät" icon="play" >}}
   {{< card link="/de/docs/pre-deploy-checklist" title="Pre-Deploy-Checkliste" subtitle="Vor dem Pilotgerät die Basis sauber prüfen" icon="check-circle" >}}
   {{< card link="/de/docs/faq" title="FAQ" subtitle="Kurze Antworten auf die häufigsten Fragen" icon="question-mark-circle" >}}
   {{< card link="https://github.com/matarus-theron/windows-kmu-baseline-pack" title="Produkt-Repository" subtitle="Technische Quelle und aktueller Stand" icon="github" >}}
