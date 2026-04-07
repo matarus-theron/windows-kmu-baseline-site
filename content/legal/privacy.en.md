@@ -1,20 +1,69 @@
 ---
 title: Privacy
-description: Basic privacy information.
+description: Public summary of data processing related to purchase, licensing, downloads and support.
 ---
 
-# Privacy
+This page summarizes the most important privacy topics of the website and product in a **public short form**.
 
-This website provides information about the Windows KMU Baseline Pack.
+{{< callout type="warning" >}}
+**Complete before publication:** controller name, full address and privacy contact.  
+Without these details, the external legal presentation is not complete.
+{{< /callout >}}
 
-## General principle
+## What this covers
 
-Technically required data may be processed when operating and using this website, for example to provide the website, ensure operational security and analyze errors.
+Personal or technically attributable data may be processed in connection with the product, especially for:
 
-## Product context
+- purchase processing
+- license activation and validation
+- download release and product delivery
+- abuse and security checks
+- support requests
 
-Windows KMU Baseline Pack is a technical product for small businesses without an internal IT department. The handling of data related to product purchase, support or contact requests depends on the privacy information and services used in each specific case. :contentReference[oaicite:3]{index=3}
+## Typical data categories
+
+Depending on the process, this may include:
+
+- purchase and order data
+- contact and organization data
+- license identifiers / license keys
+- technical activation and validation data
+- IP address and server-side logs
+- support data such as log files, state files and error descriptions
+
+## Purposes of processing
+
+Processing serves in particular to:
+
+- provide and deliver the product
+- activate and validate licenses
+- control contract-compliant access
+- prevent abuse and protect security
+- analyze errors and ensure operational stability
+- handle support requests
+- fulfill legal obligations
+- enforce or defend legal claims
+
+## External service providers
+
+External providers may be used for sales, payment processing, infrastructure, hosting, storage, email or support. In the purchase context, a **merchant-of-record / payment-provider model** is planned in particular.
+
+## Retention
+
+Data is stored only as long as needed for contract performance, operations, security, support, legal obligations or possible legal claims.
+
+## Rights of data subjects
+
+Where applicable law provides it, data subjects may in particular have rights to:
+
+- access
+- rectification
+- erasure
+- restriction of processing
+- objection
+- data portability, where legally applicable
+- withdrawal of consent for the future
 
 ## Note
 
-This page is a short public summary and does not replace a full privacy notice.
+This page is a **public summary**. The binding source is the complete **privacy notice**, including controller details and contact information.

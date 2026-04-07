@@ -1,35 +1,51 @@
 ---
 title: Pre-Deployment Checklist
-description: Checks to perform before deploying the Windows KMU Baseline Pack.
+description: Checkpoints before the first rollout of the Windows KMU Baseline Pack.
 ---
 
-# Pre-Deployment Checklist
+This checklist is intended for the **first pilot-device test** and every later controlled rollout.
 
-Before deployment, at least the following should be verified:
+## Target system and scope
 
-## Environment
+- target system is **Windows 11 Pro**
+- target release is **24H2**
+- system is administered **locally**
+- no AD, domain GPO, Intune, MDM or Autopilot management is active
+- deployment scenario matches **single-device / workgroup / small environment**
+- usage is within the documented **v1 scope**
 
-- Target device is Windows 11 Pro
-- Target version is 24H2
-- Device is not managed via Active Directory
-- Device is not managed via Intune / MDM / Autopilot
-- Target scenario matches workgroup / single-device / small environment
+## Safety and recovery
 
-## Preparation
+- current backup or snapshot exists
+- recovery in case of failure is known
+- for BitLocker: **recovery key** is secured
+- local administrator rights are available
+- testing starts on a **non-production / pilot device**
 
-- Pilot device first
-- Backup / snapshot / recovery option available
-- Local administrator rights available
-- Device is fully updated
-- Reboot after updates completed
+## System condition
 
-## Product fit
+- device is fully updated
+- reboot after updates has been completed
+- no major open system failures or admin issues are known
+- basic availability of network, internet and services is verified beforehand
 
-- Goal is local baseline hardening via LGPO.exe
-- Focus is on Defender, Firewall, UAC / LSA and Windows Update
-- No dependency on domain GPO
-- No expectation of Office / Adobe / server hardening
+## Consider productive dependencies
 
-## Recommendation
+- printers considered
+- NAS / network drives considered
+- RDP / remote support considered, if needed
+- line-of-business applications and business software considered
+- known legacy dependencies on SMB / NTLM or older devices taken into account
 
-Test on a pilot device first and document the results before wider rollout.
+## Rollout discipline
+
+- documentation of the test run is planned
+- pilot-device results are reviewed before additional systems follow
+- no broad rollout without a clean function test
+- support and scope boundaries are understood internally
+
+## Next
+
+- [Get Started](get-started)
+- [Support Matrix](support-matrix)
+- [FAQ](faq)

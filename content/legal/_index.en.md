@@ -1,17 +1,23 @@
 ---
 title: Legal
-description: Legal notices, license and privacy information.
+description: Public summary of license, privacy and legal product boundaries.
 ---
 
-# Legal
+This section bundles the **public summary pages** for the main legal topics of the product.
 
-This section provides the basic legal information for the Windows KMU Baseline Pack.
+{{< callout type="important" >}}
+The pages below are **website summaries**. The binding terms remain the complete **license, privacy and accompanying documents** published with or delivered alongside the product.
+{{< /callout >}}
 
 ## Contents
 
-- [License](/en/legal/license)
-- [Privacy](/en/legal/privacy)
+- [License](license)
+- [Privacy](privacy)
 
-## Note
+## What matters here
 
-The technical and product-related content on this website is provided for orientation. The binding terms remain the license, contract and accompanying documents provided with the product.
+- The product is **proprietary B2B software**
+- Standard licenses are intended for **internal use within the licensed organization**
+- MSP, reseller and third-customer use are **not** part of a standard license
+- purchase, licensing, download and support may involve technical data processing
+- pilot device, backup, recovery and scope checks remain part of the buyer's responsibility

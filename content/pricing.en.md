@@ -1,66 +1,35 @@
 ---
-title: Pricing
-description: Edition overview for the Windows KMU Baseline Pack.
+title: Editions
+description: Internal edition overview for the Windows KMU Baseline Pack.
+draft: true
 ---
 
-# Pricing
+This page is currently **not intended to be public**. It serves as a prepared edition overview.
 
-This page shows the planned editions of the **Windows KMU Baseline Pack**.
+## Planned editions
 
-{{< callout type="important" >}}
-Pricing and checkout are not yet finally published. This page currently serves as a structured edition overview.
-{{< /callout >}}
+### Solo
 
-## Editions at a glance
+For small environments with up to 5 devices.
 
-{{< cards cols="2" >}}
-  {{< card link="/en/buy" title="Solo" subtitle="For small setups up to 5 devices" tag="v1" tagColor="green" >}}
-  {{< card link="/en/buy" title="Team" subtitle="For small environments up to 25 devices" tag="v1" tagColor="green" >}}
-{{< /cards >}}
+- up to 5 devices
+- Windows 11 Pro 24H2
+- local deployment via LGPO.exe
+- for small workgroup environments
+- no AD / domain GPO
+- self-service-oriented scope within the documented framework
 
-## Solo
+### Team
 
-Suitable for:
+For small teams and SMEs with up to 25 devices.
 
-- single devices
-- very small setups
-- small businesses with a limited device count
-- conservative pilot-first rollout
+- up to 25 devices
+- Windows 11 Pro 24H2
+- local deployment via LGPO.exe
+- for small workgroup environments
+- no AD / domain GPO
+- support depends on product description and purchased edition
 
-## Team
+## Note
 
-Suitable for:
-
-- small multi-device environments
-- standardized local baseline in smaller environments
-- teams with a clearly limited Windows 11 scope
-
-## Shared v1 core coverage
-
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update :contentReference[oaicite:3]{index=3}
-
-## Not included
-
-- Active Directory / domain GPO
-- Intune / MDM / Autopilot
-- Windows Server
-- Office / M365 hardening
-- Adobe / Acrobat hardening
-- zero-touch rollout :contentReference[oaicite:4]{index=4}
-
-## Check before purchase
-
-- [Product](/en/product)
-- [Get Started](/en/docs/get-started)
-- [Support Matrix](/en/docs/support-matrix)
-- [Pre-Deployment Checklist](/en/docs/pre-deploy-checklist)
-- [FAQ](/en/docs/faq)
-- [Buy](/en/buy)
-
-## Next steps
-
-- [Buy](/en/buy)
-- [Delivery](/en/delivery)
+The binding source is always the published product description, the purchased edition and the order confirmation.

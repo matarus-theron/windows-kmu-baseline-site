@@ -1,35 +1,56 @@
 ---
 title: Support Matrix
-description: Supported and unsupported platforms and target scenarios for v1.
+description: Officially supported, optional and unsupported deployment scenarios for v1.
 ---
 
-# Support Matrix
+This matrix describes the **binding scope of v1**. Everything outside of it is either **best effort / optional** or **deliberately unsupported**.
 
 ## Officially supported
 
-- Windows 11 Pro
-- Version 24H2
-- de-DE
-- en-US
-- local deployment via LGPO.exe
-- Workgroup / single-device / small environments
+- **Operating system:** Windows 11
+- **Edition:** Pro
+- **Release:** 24H2
+- **Language:** de-DE and en-US
+- **Deployment:** local via LGPO.exe
+- **Environment:** workgroup / single-device / small environments
+- **Core areas of v1:**
+  - Defender baseline
+  - Firewall baseline
+  - Audit baseline
+  - UAC / LSA baseline
+  - Windows Update baseline
 
 ## Best effort / optional
 
 - Windows 11 Enterprise
-- Windows 11 25H2 after testing
-- Browser hardening as an add-on
-- conservative SMB / network hardening
-- optional Edge / SMB sections outside the core baseline
+- Windows 11 25H2 after testing and approval
+- browser hardening as a separate add-on
+- conservative SMB / network hardening after environment review
 
 ## Not supported / not recommended
 
 - Windows 11 Home
-- Server 2022 / 2025
+- Windows Server 2022 / 2025
 - Active Directory / domain GPO
-- Domain Controller / RDS
-- Intune / MDM / Autopilot
-- Office / M365 hardening
+- domain controllers
+- RDS / terminal servers
+- Intune-, MDM- or Autopilot-managed devices
+- Microsoft 365 / Office hardening
 - Adobe / Acrobat hardening
-- zero-touch / centrally managed fleet rollout
-- production-critical specialty software outside the support scope
+- production-critical special environments without separate testing
+- centralized zero-touch rollout into productive fleets
+
+## Edition framework
+
+- **Solo:** up to 5 devices
+- **Team:** up to 25 devices
+
+## Important
+
+This matrix does **not** replace a pilot device, backup, recovery or function testing. It defines the product scope; responsibility for proper pre-checks and controlled use remains with the buyer.
+
+## Next
+
+- [Get Started](get-started)
+- [Pre-Deployment Checklist](pre-deploy-checklist)
+- [Product](../product)

@@ -1,52 +1,66 @@
 ---
 title: Get Started
-description: Einstieg in das Windows KMU Baseline Pack.
+description: Empfohlener Einstieg für Scope-Prüfung, Vorbereitung und Pilot-Rollout.
 ---
 
-# Get Started
+Der richtige Start für dieses Produkt ist **nicht** der schnelle Massenrollout, sondern eine **saubere Vorprüfung** und ein **kontrollierter Test auf Pilotgerät**.
 
-Diese Seite ist der empfohlene Einstieg für das **Windows KMU Baseline Pack**.
-
-{{< callout type="important" >}}
-Zuerst **nicht** breit ausrollen. Erst auf einem **Pilotgerät** prüfen, dann Resultate bewerten, dann gezielt ausrollen. :contentReference[oaicite:1]{index=1}
+{{< callout type="warning" >}}
+Vor produktivem Einsatz immer zuerst auf **Pilotgerät / Nicht-Produktivsystem** testen und **Backup / Snapshot / Recovery** sicherstellen.
 {{< /callout >}}
 
-## Zielgruppe
+## 1. Scope zuerst prüfen
 
-Das Produkt ist für kleine Unternehmen ohne eigene IT-Abteilung gedacht, die eine lokale, klar dokumentierte Windows-11-Baseline benötigen. Deployment erfolgt lokal über **LGPO.exe**. :contentReference[oaicite:2]{index=2}
+Bevor überhaupt an Rollout gedacht wird, sollte klar sein:
 
-## Vor dem Start prüfen
+- Zielsystem ist **Windows 11 Pro 24H2**
+- keine AD-, Domain-GPO-, Intune-, MDM- oder Autopilot-Verwaltung aktiv
+- Einsatz erfolgt in einer **kleinen Workgroup- oder Einzelgeräte-Umgebung**
+- die erwartete Nutzung liegt innerhalb des dokumentierten v1-Scope
 
-{{< cards cols="2" >}}
-  {{< card link="/de/docs/support-matrix" title="Support-Matrix" subtitle="Passt das Zielsystem überhaupt in den Scope?" icon="shield-check" >}}
-  {{< card link="/de/docs/pre-deploy-checklist" title="Pre-Deploy-Checkliste" subtitle="Vorbereitung vor dem Test auf dem Pilotgerät" icon="check-circle" >}}
-  {{< card link="/de/docs/faq" title="FAQ" subtitle="Kurze Antworten auf die häufigsten Fragen" icon="question-mark-circle" >}}
-  {{< card link="https://github.com/matarus-theron/windows-kmu-baseline-pack" title="Produkt-Repository" subtitle="Technische Quelle und aktueller Stand" icon="github" >}}
-{{< /cards >}}
+## 2. Vor dem ersten Test prüfen
 
-## Empfohlene Reihenfolge
+Mindestens sicherstellen:
 
-1. Scope anhand der Support-Matrix prüfen
-2. Zielgerät vollständig aktualisieren
-3. Neustart durchführen
-4. Backup / Snapshot / Recovery sicherstellen
-5. Erstes Pilotgerät auswählen
-6. Deployment und Resultate dokumentieren
+- aktuelles Backup oder Snapshot vorhanden
+- Wiederherstellung im Fehlerfall bekannt
+- bei BitLocker: **Recovery Key** gesichert
+- Ausführung mit **lokalen Administratorrechten**
+- System vollständig aktualisiert
+- Neustart nach Updates durchgeführt
+- Drucker, NAS, Netzlaufwerke, RDP und Fachanwendungen berücksichtigt
 
-## Kernfokus von v1
+## 3. Pilotgerät bewusst auswählen
 
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update :contentReference[oaicite:3]{index=3}
+Ein gutes Pilotgerät ist:
 
-## Noch kein öffentlicher Rollout-Shortcut
+- repräsentativ für den späteren Zielbestand
+- nicht sofort geschäftskritisch
+- sauber dokumentierbar
+- im Fehlerfall kontrolliert rücksetzbar
 
-Diese Seite ist bewusst konservativ gehalten. Sie ersetzt keine produktbegleitende Doku, keine Lizenzunterlagen und keinen kontrollierten Test auf einem Pilotgerät.
+## 4. Nach dem Test prüfen
 
-## Weiterführend
+Nach der Anwendung sollte mindestens geprüft werden:
 
-- [Support-Matrix](/de/docs/support-matrix)
-- [Pre-Deploy-Checkliste](/de/docs/pre-deploy-checklist)
-- [FAQ](/de/docs/faq)
-- [Produkt](/de/product)
+- Anmeldung funktioniert
+- Netzwerkzugriff funktioniert
+- Internetzugriff funktioniert
+- Drucker funktionieren
+- Netzlaufwerke / NAS funktionieren
+- RDP / Fernsupport funktioniert, falls benötigt
+- Fachanwendungen starten korrekt
+- Windows-Sicherheitscenter zeigt keine neuen kritischen Warnungen
+- Ereignisanzeige zeigt keine neuen Gruppenrichtlinienfehler
+
+## 5. Erst dann weiter ausrollen
+
+Wenn Pilotgerät und Funktionstest sauber laufen, kann der Rollout **kontrolliert** auf weitere Systeme ausgeweitet werden.
+
+## Weiter
+
+- [Support-Matrix](support-matrix)
+- [Pre-Deploy-Checkliste](pre-deploy-checklist)
+- [FAQ](faq)
+- [Produkt](../product)
+- [Kauf & Lieferung](../buy)

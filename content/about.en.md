@@ -1,14 +1,49 @@
 ---
-title: About
-description: Background and goals of the project.
+title: About the Project
+description: Background, product logic and design principles of the project.
 ---
 
-# About
+This project has a clear goal: build a **sellable, technically clean Windows hardening product** for small businesses without an internal IT department — **not a consulting model**, **not a workshop package**, **not a managed service**.
 
-Windows KMU Baseline Pack is a productized hardening and policy package for small businesses without an internal IT department.
+## Product logic
 
-Its goal is a clearly scoped, technically clean and sellable product for **Windows 11 Pro** in **small environments without Active Directory**.
+The core idea is **productized knowledge**:
 
-## Website
+- build it cleanly once
+- sell it repeatedly
+- keep the scope deliberately narrow
+- define support boundaries clearly
+- put technical reality ahead of marketing optimism
 
-This website is the public-facing product, documentation and orientation layer of the project. The technical source of truth remains the product repository. :contentReference[oaicite:3]{index=3}
+## Why local deployment via LGPO.exe
+
+v1 is deliberately designed for **local deployment** in **small workgroup environments**. The product should be usable where there is **no Active Directory** and **no MDM / Intune management** in place.
+
+## Project principles
+
+- modular internal structure
+- only a few clear bundles externally
+- conservative scope instead of an overloaded feature list
+- documented boundaries instead of implied promises
+- pilot device, backup and recovery as a fixed part of the product logic
+
+## Primary target market
+
+The initial focus is on **small businesses in Switzerland and the German-speaking region**. Later expansion is possible, but it does not change the deliberately narrow scope of v1.
+
+## What this website is for
+
+This website is the **public product, documentation and orientation layer** of the project. It should make clear:
+
+- who the product is for
+- what v1 covers
+- what is deliberately out of scope
+- which prerequisites should be met before rollout
+- where the legal and operational boundaries are
+
+## Next
+
+- [Product](../product)
+- [Documentation](../docs)
+- [FAQ](../docs/faq)
+- [Legal](../legal)

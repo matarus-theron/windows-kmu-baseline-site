@@ -1,33 +1,49 @@
 ---
-title: About
-description: Hintergrund und Zielsetzung des Projekts.
+title: Über das Projekt
+description: Hintergrund, Produktlogik und Grundprinzipien des Projekts.
 ---
 
-# About
+Dieses Projekt verfolgt ein klares Ziel: ein **verkaufbares, technisch sauberes Windows-Hardening-Produkt** für kleine Firmen ohne eigene IT-Abteilung zu bauen – **kein Beratungsmodell**, **kein Workshop-Paket**, **kein Managed Service**.
 
-Das Windows KMU Baseline Pack ist ein produktisiertes Hardening- und Policy-Paket für kleine Unternehmen ohne eigene IT-Abteilung.
+## Produktlogik
 
-Ziel ist ein klar abgegrenztes, technisch sauberes und verkaufbares Produkt für **Windows 11 Pro** in **kleinen Umgebungen ohne Active Directory**. Deployment erfolgt lokal über **LGPO.exe**.
+Die Grundidee ist **productized knowledge**:
 
-## Grundprinzipien
+- einmal sauber bauen
+- mehrfach verkaufen
+- Scope bewusst eng halten
+- Supportgrenzen klar definieren
+- technische Realität vor Marketing-Optimismus stellen
 
-- modularer Aufbau
-- konservative Produktgrenzen
-- lokale Anwendbarkeit
-- klarer Support-Scope
-- technische Dokumentation statt Marketing-Versprechen
+## Warum lokal via LGPO.exe
 
-## v1-Schwerpunkt
+v1 ist bewusst auf **lokale Ausrollung** in **kleinen Workgroup-Umgebungen** ausgelegt. Das Produkt soll auch dort einsetzbar sein, wo **kein Active Directory** und **keine MDM-/Intune-Verwaltung** vorhanden sind.
 
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update
+## Projektprinzipien
 
-## Repository
+- modularer interner Aufbau
+- wenige klare Bundles nach außen
+- konservativer Scope statt überladener Feature-Liste
+- dokumentierte Grenzen statt stillschweigender Zusagen
+- Pilotgerät, Backup und Recovery als fester Teil der Produktlogik
 
-- [Produkt-Repository](https://github.com/matarus-theron/windows-kmu-baseline-pack)
+## Primärer Zielmarkt
 
-## Website
+Der Startfokus liegt auf **kleinen Firmen / KMU in der Schweiz sowie im deutschsprachigen Raum**. Spätere Erweiterungen sind möglich, ändern aber nichts am bewusst engen v1-Scope.
 
-Diese Website ist die öffentliche Produkt-, Dokumentations- und Orientierungsschicht des Projekts. Die technische Source of Truth bleibt das Produkt-Repository. :contentReference[oaicite:2]{index=2}
+## Was diese Website leisten soll
+
+Diese Website ist die **öffentliche Produkt-, Dokumentations- und Orientierungsschicht** des Projekts. Sie soll schnell klarmachen:
+
+- für wen das Produkt gedacht ist
+- was v1 abdeckt
+- was bewusst nicht im Scope ist
+- welche Voraussetzungen vor dem Rollout erfüllt sein sollten
+- wo die rechtlichen und betrieblichen Grenzen liegen
+
+## Weiter
+
+- [Produkt](../product)
+- [Dokumentation](../docs)
+- [FAQ](../docs/faq)
+- [Rechtliches](../legal)

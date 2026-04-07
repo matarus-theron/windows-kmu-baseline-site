@@ -1,61 +1,59 @@
 ---
-title: Buy
-description: Purchase preparation, delivery framework and planned process.
+title: Purchase & Delivery
+description: Purchase framework, edition logic and delivery scope of the Windows KMU Baseline Pack.
 ---
 
-# Buy
-
-This page describes the planned purchase and delivery framework of the **Windows KMU Baseline Pack**.
+This page describes the **purchase and delivery framework** of the product. It is intentionally straightforward: the goal is a **clear scope check** before purchase, not an overloaded marketing flow.
 
 {{< callout type="important" >}}
-Public checkout is not yet finally enabled. This page currently serves as a structured purchase placeholder.
+The product is intended for **small Windows 11 Pro environments without Active Directory** and is **deployed locally via LGPO.exe**.
 {{< /callout >}}
 
-## Planned editions
+## Edition logic
 
-{{< cards cols="2" >}}
-  {{< card link="/en/pricing" title="Solo" subtitle="For small setups up to 5 devices" tag="v1" tagColor="green" >}}
-  {{< card link="/en/pricing" title="Team" subtitle="For small environments up to 25 devices" tag="v1" tagColor="green" >}}
-{{< /cards >}}
+The device scope depends on the purchased edition:
 
-## Planned purchase flow
+- **Solo**: up to 5 devices
+- **Team**: up to 25 devices
 
-1. Choose a product edition
-2. Review scope and support matrix
-3. Review the pre-deployment checklist
-4. Complete the purchase
-5. Receive the product package
-6. Test on a pilot device first
+The binding scope of use is defined by the applicable product description, purchased edition and order confirmation.
+
+## Who the purchase path is for
+
+- small businesses without an internal IT department
+- locally administered Windows 11 Pro systems
+- single-device and small workgroup environments
+- buyers looking for a **clearly scoped B2B product**
 
 ## What buyers should expect
 
-- clearly scoped v1 coverage
-- documented product boundaries
-- technical accompanying documentation
-- focus on local deployment via LGPO.exe
-- conservative recommendation: pilot device first :contentReference[oaicite:3]{index=3}
+- a productized hardening / policy package
+- clear scope and support boundaries
+- accompanying documentation
+- a conservative rollout recommendation with pilot device first
+- no managed service and no individual architecture consulting
 
-## What is not yet publicly enabled
+## What buyers should receive
 
-- final checkout
-- pricing
-- automatic download flow
-- public purchase button
-- final delivery process
+- the product package in the purchased edition
+- accompanying documentation
+- scope and usage guidance
+- guidance for pilot device and controlled rollout
+- legal accompanying documents
 
 ## Check before purchase
 
-- [Product](/en/product)
-- [Pricing](/en/pricing)
-- [Get Started](/en/docs/get-started)
-- [Support Matrix](/en/docs/support-matrix)
-- [Pre-Deployment Checklist](/en/docs/pre-deploy-checklist)
-- [FAQ](/en/docs/faq)
+- [Product](product)
+- [Get Started](docs/get-started)
+- [Support Matrix](docs/support-matrix)
+- [Pre-Deployment Checklist](docs/pre-deploy-checklist)
+- [FAQ](docs/faq)
+- [Legal](legal)
 
 {{< callout type="warning" >}}
-Before production use, always test on a **pilot device** first and plan for **backup / snapshot / recovery**. :contentReference[oaicite:4]{index=4}
+Before production use, always start on a **pilot device** and plan for **backup / snapshot / recovery**.
 {{< /callout >}}
 
-## Delivery
+## Delivery overview
 
-- [Delivery framework](/en/delivery)
+See [Delivery Scope](delivery) for more detail.

@@ -1,63 +1,82 @@
 ---
 title: Product
-description: Scope, target audience and core coverage of the Windows KMU Baseline Pack.
+description: Target audience, scope and core coverage of the Windows KMU Baseline Pack v1.
 ---
 
-# Product
-
-The **Windows KMU Baseline Pack** is a productized hardening and policy package for **small Windows 11 environments without Active Directory**. Deployment is performed locally via **LGPO.exe**. :contentReference[oaicite:7]{index=7}
+The **Windows KMU Baseline Pack v1** is a **locally deployable hardening and policy package** for **Windows 11 Pro 24H2** in **small environments without Active Directory**. It is designed as a **digital product** — not as a workshop, managed service or consulting engagement.
 
 {{< callout type="important" >}}
-v1 is deliberately **narrowly scoped**: Windows 11 Pro, 24H2, de-DE and en-US, small workgroup environments, local deployment. :contentReference[oaicite:8]{index=8}
+**Core statement:** v1 is deliberately **narrow**, **modular**, and **supportable**.  
+Deployment is performed **locally via LGPO.exe**. The target is **single-device, small workgroup and small-business environments**.
 {{< /callout >}}
 
 ## Who this product is for
 
 - small businesses without an internal IT department
+- locally administered Windows 11 Pro systems
 - single-device and small workgroup environments
-- Windows 11 setups without Active Directory
-- conservative, documented local baseline hardening
+- environments where a clean, traceable baseline matters more than maximum complexity
+- buyers looking for a **clearly scoped B2B product**, not a workshop or consulting scope
 
-## Core coverage of v1
+## Core areas of v1
 
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update :contentReference[oaicite:9]{index=9}
+- Defender baseline
+- Firewall baseline
+- Audit baseline
+- UAC / LSA baseline
+- Windows Update baseline
 
-## Supported framework
+## Officially supported framework
 
-- Windows 11 Pro
-- Version 24H2
-- de-DE
-- en-US
-- local deployment via LGPO.exe :contentReference[oaicite:10]{index=10}
+- **Operating system:** Windows 11
+- **Edition:** Pro
+- **Release:** 24H2
+- **Language:** de-DE and en-US
+- **Deployment:** local via LGPO.exe
+- **Environment:** workgroup / single-device / small environments
 
-## Not in scope for v1
+## Best effort / optional
+
+- Windows 11 Enterprise
+- Windows 11 25H2 after testing
+- Browser hardening as a separate add-on
+- conservative SMB / network hardening after environment review
+
+## Deliberately not included
 
 - Active Directory / domain GPO
+- domain controllers
+- RDS / terminal servers
 - Intune / MDM / Autopilot
-- Windows Server
-- Office / M365 hardening
+- Windows Server 2022 / 2025
+- Microsoft 365 / Office hardening
 - Adobe / Acrobat hardening
-- zero-touch rollout
-- WDAC as a core component
-- Exploit Protection as a core component :contentReference[oaicite:11]{index=11}
+- centralized zero-touch rollout
+- managed-service or MSP usage without a separate agreement
+- individual architecture, risk or compliance consulting
 
-## Working model
+## Edition framework
 
-The product is deliberately **modular**, **locally applicable** and built around a **clearly limited support scope**. The goal is a sellable package, not a workshop-dependent consulting model. :contentReference[oaicite:12]{index=12}
+The purchased edition defines the allowed device count:
+
+- **Solo**: up to 5 devices
+- **Team**: up to 25 devices
+
+## Support and operating boundaries
+
+The product is built around a **conservative, documented scope**. This means:
+
+- test on a **pilot / non-production device** first
+- ensure backup / snapshot / recovery before deployment
+- account for printers, NAS, network drives, RDP and line-of-business applications before broader rollout
+- no implied promise of compatibility with third-party software, legacy printers, older NAS devices or old SMB / NTLM dependencies
+- support depends on the **purchased edition**, **product description** and **documented scope**
 
 ## Next
 
-- [Get Started](/en/docs/get-started)
-- [Support Matrix](/en/docs/support-matrix)
-- [Pre-Deployment Checklist](/en/docs/pre-deploy-checklist)
-- [FAQ](/en/docs/faq)
-- [Buy](/en/buy)
-
-## Next steps
-
-- [Pricing](/en/pricing)
-- [Buy](/en/buy)
-- [Delivery](/en/delivery)
+- [Get Started](../docs/get-started)
+- [Support Matrix](../docs/support-matrix)
+- [Pre-Deployment Checklist](../docs/pre-deploy-checklist)
+- [FAQ](../docs/faq)
+- [Purchase & Delivery](../buy)
+- [Legal](../legal)

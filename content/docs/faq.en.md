@@ -1,47 +1,58 @@
 ---
 title: FAQ
-description: Frequently asked questions about the Windows KMU Baseline Pack.
+description: Frequently asked questions about the Windows KMU Baseline Pack v1.
 ---
-
-# FAQ
 
 ## Who is this product for?
 
-For small businesses without an internal IT department and without Active Directory that need a clean local Windows 11 baseline.
+It is intended for small businesses without an internal IT department that administer **Windows 11 Pro 24H2** locally and need a traceable baseline for **single-device or small workgroup environments**.
 
 ## Which Windows version is supported?
 
-Windows 11 Pro 24H2 in de-DE and en-US is officially supported.
+The officially supported version is **Windows 11 Pro 24H2** in **de-DE** and **en-US**.
 
 ## Is Active Directory supported?
 
-No. v1 is deliberately focused on local deployment via LGPO.exe in workgroup environments.
+No. v1 is deliberately **not** built for Active Directory / domain GPO. It is designed for **local deployment via LGPO.exe**.
 
 ## Is Intune or MDM in scope?
 
-No. Intune-, MDM- and Autopilot-managed devices are outside the scope of v1.
+No. Intune-, MDM- and Autopilot-managed devices are **not part of v1**.
 
 ## Which areas are covered by the core baseline?
 
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update
+v1 focuses on:
 
-## Are WDAC or Exploit Protection part of the core baseline?
+- Defender baseline
+- Firewall baseline
+- Audit baseline
+- UAC / LSA baseline
+- Windows Update baseline
 
-No, not part of the v1 core baseline.
+## Is this a managed service or consulting product?
+
+No. The product is designed as a **digital B2B package**, not as a workshop, managed service or individual consulting offer.
+
+## Is MSP or third-customer use included?
+
+No. A standard license is intended for **internal use within the licensed organization**. MSP, reseller or third-customer use requires a **separate agreement**.
 
 ## Should it be rolled out broadly right away?
 
-No. Pilot device first, then review, then roll out selectively.
+No. Always start on a **pilot / non-production device**, then review functionality, then expand rollout in a controlled way.
 
-## Is this a consulting product?
+## Is support included automatically?
 
-No. The goal is a clearly scoped, productized package.
+Support depends on the **purchased edition**, **product description** and **documented scope**. There is no implied entitlement to individual help outside that framework.
+
+## Is compatibility with third-party software guaranteed?
+
+No. Before broader rollout, printers, NAS devices, network drives, RDP and line-of-business applications should be checked during pilot operation.
 
 ## Next
 
-- [Get Started](/en/docs/get-started)
-- [Product](/en/product)
-- [Pricing](/en/pricing)
+- [Get Started](get-started)
+- [Pre-Deployment Checklist](pre-deploy-checklist)
+- [Support Matrix](support-matrix)
+- [Product](../product)
+- [Legal](../legal)

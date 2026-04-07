@@ -1,44 +1,51 @@
 ---
 title: Dokumentation
-description: Technische und produktbezogene Dokumentation zum Windows KMU Baseline Pack.
+description: Öffentliche Dokumentation zu Scope, Voraussetzungen, Rollout-Logik und Grenzen des Windows KMU Baseline Pack.
 ---
 
-# Dokumentation
-
-Diese Dokumentation beschreibt Scope, Einsatzbereich, Voraussetzungen und Grenzen des **Windows KMU Baseline Pack**.
+Diese Dokumentation ist die **öffentliche Orientierungsschicht** des Produkts. Sie erklärt, **wofür v1 gedacht ist**, **welche Voraussetzungen vor dem Rollout erfüllt sein sollten** und **welche Grenzen bewusst gesetzt sind**.
 
 {{< callout type="important" >}}
-Diese Website ist die öffentliche Produkt- und Dokumentationsschicht. Die technische Source of Truth bleibt das Produkt-Repository. :contentReference[oaicite:1]{index=1}
+Diese Website ersetzt **nicht** die produktbegleitende Dokumentation im ausgelieferten Paket. Sie dient der Einordnung, Scope-Prüfung und Kaufvorbereitung.
 {{< /callout >}}
 
 ## Womit anfangen?
 
 {{< cards cols="2" >}}
-  {{< card link="/de/docs/support-matrix" title="Support-Matrix" subtitle="Unterstützte und nicht unterstützte Plattformen und Szenarien" icon="shield-check" >}}
-  {{< card link="/de/docs/get-started" title="Get Started" subtitle="Empfohlener Einstieg in Test und Pilotgerät" icon="play" >}}
-  {{< card link="/de/docs/pre-deploy-checklist" title="Pre-Deploy-Checkliste" subtitle="Vor dem Pilotgerät die Basis sauber prüfen" icon="check-circle" >}}
-  {{< card link="/de/docs/faq" title="FAQ" subtitle="Kurze Antworten auf die häufigsten Fragen" icon="question-mark-circle" >}}
-  {{< card link="https://github.com/matarus-theron/windows-kmu-baseline-pack" title="Produkt-Repository" subtitle="Technische Quelle und aktueller Stand" icon="github" >}}
+  {{< card link="support-matrix" title="Support-Matrix" subtitle="Offiziell unterstützt, Best Effort und bewusst nicht im Scope" icon="shield-check" >}}
+  {{< card link="get-started" title="Get Started" subtitle="Empfohlener Einstieg vor dem Pilotgerät" icon="play" >}}
+  {{< card link="pre-deploy-checklist" title="Pre-Deploy-Checkliste" subtitle="Was vor dem ersten Rollout geprüft sein sollte" icon="check-circle" >}}
+  {{< card link="faq" title="FAQ" subtitle="Kurze Antworten auf wiederkehrende Produktfragen" icon="question-mark-circle" >}}
 {{< /cards >}}
 
-## Ziel von v1
+## Was diese Doku abdeckt
 
-- Windows 11 Pro
-- 24H2
-- de-DE und en-US
-- lokales Deployment via LGPO.exe
-- kleine Workgroup-Umgebungen
-- Fokus auf Defender, Firewall, UAC / LSA und Windows Update :contentReference[oaicite:2]{index=2}
+- Zielgruppe und Scope von v1
+- unterstützte und nicht unterstützte Einsatzszenarien
+- Grundsätze für Pilotgerät, Backup und Recovery
+- Rollout-Vorbereitung in kleinen Workgroup-Umgebungen
+- rechtliche und betriebliche Grenzen auf hoher Ebene
 
-## Nicht im Scope von v1
+## Was diese Doku bewusst nicht ersetzt
 
-- Active Directory / Domain GPO
-- Intune / MDM / Autopilot
-- Windows Server
-- Office / M365 Hardening
-- Adobe / Acrobat Hardening
-- Zero-Touch / zentraler Flotten-Rollout :contentReference[oaicite:3]{index=3}
+- vollständige Lizenzunterlagen
+- vollständige Datenschutzerklärung
+- individuelle Projektplanung
+- Architektur- oder Compliance-Beratung
+- technische Detaildokumentation für Sonderumgebungen außerhalb des Scopes
 
-{{< callout type="warning" >}}
-Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen und **Backup / Snapshot / Recovery** einplanen. :contentReference[oaicite:4]{index=4}
-{{< /callout >}}
+## Rollout-Grundsatz
+
+Das Produkt ist auf **vorsichtige lokale Ausrollung** ausgelegt:
+
+1. Scope prüfen
+2. Zielsystem sauber vorbereiten
+3. zuerst auf Pilotgerät testen
+4. Ergebnisse und Nebenwirkungen prüfen
+5. erst danach kontrolliert weiter ausrollen
+
+## Weiter
+
+- [Produkt](../product)
+- [Kauf & Lieferung](../buy)
+- [Rechtliches](../legal)

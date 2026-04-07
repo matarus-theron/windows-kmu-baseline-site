@@ -1,35 +1,51 @@
 ---
 title: Pre-Deploy-Checkliste
-description: Prüfpunkte vor dem Deployment des Windows KMU Baseline Pack.
+description: Prüfpunkte vor dem ersten Rollout des Windows KMU Baseline Pack.
 ---
 
-# Pre-Deploy-Checkliste
+Diese Checkliste ist für den **ersten Test auf Pilotgerät** und für jeden späteren kontrollierten Rollout gedacht.
 
-Vor dem Deployment sollte mindestens Folgendes geprüft werden:
+## Zielsystem und Scope
 
-## Umgebung
+- Zielsystem ist **Windows 11 Pro**
+- Zielrelease ist **24H2**
+- System wird **lokal** administriert
+- keine AD-, Domain-GPO-, Intune-, MDM- oder Autopilot-Verwaltung aktiv
+- Einsatzszenario entspricht **Einzelgerät / Workgroup / kleiner Umgebung**
+- Nutzung liegt im dokumentierten **v1-Scope**
 
-- Zielgerät ist Windows 11 Pro
-- Zielversion ist 24H2
-- Gerät ist nicht via Active Directory verwaltet
-- Gerät ist nicht via Intune / MDM / Autopilot verwaltet
-- Einsatzszenario entspricht Workgroup / Einzelgerät / kleiner Umgebung
+## Sicherheit und Wiederherstellung
 
-## Vorbereitung
-
-- Pilotgerät zuerst
-- Backup / Snapshot / Recovery-Möglichkeit vorhanden
+- aktuelles Backup oder Snapshot vorhanden
+- Wiederherstellung im Fehlerfall bekannt
+- bei BitLocker: **Recovery Key** gesichert
 - lokale Administratorrechte vorhanden
+- Test erfolgt zuerst auf **Nicht-Produktivsystem / Pilotgerät**
+
+## Systemzustand
+
 - Gerät ist vollständig aktualisiert
-- Neustart nach Updates durchgeführt
+- Neustart nach Updates wurde durchgeführt
+- keine offenen größeren Systemfehler oder Admin-Probleme bekannt
+- grundlegende Erreichbarkeit von Netzwerk, Internet und Diensten ist vorab geprüft
 
-## Produkt-Fit
+## Produktive Abhängigkeiten mitdenken
 
-- Ziel ist lokale Baseline-Härtung via LGPO.exe
-- Fokus liegt auf Defender, Firewall, UAC / LSA und Windows Update
-- keine Abhängigkeit von Domain GPO
-- keine Erwartung an Office-/Adobe-/Server-Hardening
+- Drucker berücksichtigt
+- NAS / Netzlaufwerke berücksichtigt
+- RDP / Fernsupport berücksichtigt, falls benötigt
+- Fachanwendungen und Geschäftssoftware berücksichtigt
+- bekannte Alt-Abhängigkeiten bei SMB / NTLM oder Legacy-Geräten bedacht
 
-## Empfehlung
+## Rollout-Disziplin
 
-Zuerst auf einem Pilotgerät testen und Resultate vor breiterem Rollout dokumentieren.
+- Dokumentation des Testlaufs vorgesehen
+- Ergebnisse auf Pilotgerät werden geprüft, bevor weitere Systeme folgen
+- keine breite Ausrollung ohne sauberen Funktionstest
+- Support- und Scope-Grenzen sind intern verstanden
+
+## Weiter
+
+- [Get Started](get-started)
+- [Support-Matrix](support-matrix)
+- [FAQ](faq)

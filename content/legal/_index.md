@@ -1,17 +1,23 @@
 ---
-title: Legal
-description: Rechtliche Hinweise, Lizenz und Datenschutz.
+title: Rechtliches
+description: Öffentliche Kurzfassung zu Lizenz, Datenschutz und rechtlichen Produktgrenzen.
 ---
 
-# Legal
+Diese Seite bündelt die **öffentlichen Kurzfassungen** zu den rechtlichen Kernthemen des Produkts.
 
-Auf dieser Seite finden sich die grundlegenden rechtlichen Hinweise zum Windows KMU Baseline Pack.
+{{< callout type="important" >}}
+Die nachfolgenden Seiten sind **Website-Kurzfassungen**. Maßgeblich bleiben die jeweils veröffentlichten bzw. mit dem Produkt bereitgestellten **vollständigen Lizenz-, Datenschutz- und Begleitdokumente**.
+{{< /callout >}}
 
 ## Inhalte
 
-- [Lizenz](/legal/license)
-- [Datenschutz](/legal/privacy)
+- [Lizenz](license)
+- [Datenschutz](privacy)
 
-## Hinweis
+## Was hier wichtig ist
 
-Die technischen und produktbezogenen Inhalte der Website dienen der Orientierung. Maßgeblich bleiben die jeweils bereitgestellten Vertrags-, Lizenz- und Begleitdokumente des Produkts.
+- Das Produkt ist **proprietäre B2B-Software**
+- Standardlizenzen sind für die **interne Nutzung in der lizenzierten Organisation** gedacht
+- MSP-, Reseller- und Drittkundennutzung sind **nicht** Teil einer Standardlizenz
+- Kauf, Lizenzierung, Download und Support können technische Datenverarbeitung auslösen
+- Pilotgerät, Backup, Recovery und Scope-Prüfung bleiben Teil der Käuferverantwortung

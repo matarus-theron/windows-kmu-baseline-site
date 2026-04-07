@@ -1,52 +1,66 @@
 ---
 title: Get Started
-description: Getting started with the Windows KMU Baseline Pack.
+description: Recommended entry point for scope checks, preparation and pilot rollout.
 ---
 
-# Get Started
+The right way to start with this product is **not** a fast broad rollout, but a **clean pre-check** and a **controlled test on a pilot device**.
 
-This page is the recommended entry point for the **Windows KMU Baseline Pack**.
-
-{{< callout type="important" >}}
-Do **not** roll out broadly first. Start with a **pilot device**, review the results, then roll out selectively. :contentReference[oaicite:4]{index=4}
+{{< callout type="warning" >}}
+Before production use, always start on a **pilot / non-production device** and make sure **backup / snapshot / recovery** are in place.
 {{< /callout >}}
 
-## Target audience
+## 1. Check the scope first
 
-This product is intended for small businesses without an internal IT department that need a local, clearly documented Windows 11 baseline. Deployment is done locally via **LGPO.exe**. :contentReference[oaicite:5]{index=5}
+Before even thinking about rollout, make sure:
 
-## Check before you start
+- the target system is **Windows 11 Pro 24H2**
+- no AD, domain GPO, Intune, MDM or Autopilot management is active
+- the deployment happens in a **small workgroup or single-device environment**
+- the intended use is within the documented v1 scope
 
-{{< cards cols="2" >}}
-  {{< card link="/en/docs/support-matrix" title="Support Matrix" subtitle="Does the target system fit the intended scope?" icon="shield-check" >}}
-  {{< card link="/en/docs/pre-deploy-checklist" title="Pre-Deployment Checklist" subtitle="Preparation before testing on the pilot device" icon="check-circle" >}}
-  {{< card link="/en/docs/faq" title="FAQ" subtitle="Short answers to common questions" icon="question-mark-circle" >}}
-  {{< card link="https://github.com/matarus-theron/windows-kmu-baseline-pack" title="Product Repository" subtitle="Technical source and current state" icon="github" >}}
-{{< /cards >}}
+## 2. Verify the basics before the first test
 
-## Recommended order
+At minimum, ensure:
 
-1. Check scope against the support matrix
-2. Fully update the target device
-3. Reboot the system
-4. Ensure backup / snapshot / recovery
-5. Select a pilot device
-6. Document deployment and results
+- a current backup or snapshot exists
+- recovery in case of failure is known
+- for BitLocker: the **recovery key** is secured
+- execution takes place with **local administrator rights**
+- the system is fully updated
+- a reboot after updates has been completed
+- printers, NAS, network drives, RDP and business applications are considered
 
-## Core focus of v1
+## 3. Choose the pilot device deliberately
 
-- Defender
-- Firewall
-- UAC / LSA
-- Windows Update :contentReference[oaicite:6]{index=6}
+A good pilot device is:
 
-## No public rollout shortcut yet
+- representative of the later target fleet
+- not immediately business-critical
+- easy to document
+- possible to reset in a controlled way in case of failure
 
-This page is deliberately conservative. It does not replace product documentation, license documents or controlled testing on a pilot device.
+## 4. Review after the test
 
-## Further reading
+After applying the product, at minimum verify:
 
-- [Support Matrix](/en/docs/support-matrix)
-- [Pre-Deployment Checklist](/en/docs/pre-deploy-checklist)
-- [FAQ](/en/docs/faq)
-- [Product](/en/product)
+- sign-in works
+- network access works
+- internet access works
+- printers work
+- network drives / NAS work
+- RDP / remote support works, if needed
+- business applications start correctly
+- Windows Security Center shows no new critical warnings
+- Event Viewer shows no new group policy errors
+
+## 5. Only then roll out further
+
+If the pilot device and function test are clean, rollout can be extended **in a controlled way** to additional systems.
+
+## Next
+
+- [Support Matrix](support-matrix)
+- [Pre-Deployment Checklist](pre-deploy-checklist)
+- [FAQ](faq)
+- [Product](../product)
+- [Purchase & Delivery](../buy)

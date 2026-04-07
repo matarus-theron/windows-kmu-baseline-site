@@ -1,61 +1,59 @@
 ---
-title: Kaufen
-description: Kaufvorbereitung, Lieferrahmen und geplanter Ablauf.
+title: Kauf & Lieferung
+description: Kaufrahmen, Variantenlogik und Lieferumfang des Windows KMU Baseline Pack.
 ---
 
-# Kaufen
-
-Diese Seite beschreibt den geplanten Kauf- und Lieferrahmen des **Windows KMU Baseline Pack**.
+Diese Seite beschreibt den **Kauf- und Lieferrahmen** des Produkts. Sie ist bewusst nüchtern gehalten: Ziel ist eine **klare Scope-Prüfung** vor dem Kauf, nicht ein überladener Marketing-Flow.
 
 {{< callout type="important" >}}
-Der öffentliche Checkout ist noch nicht final freigeschaltet. Diese Seite ist aktuell ein strukturierter Kauf-Placeholder.
+Das Produkt richtet sich an **kleine Windows-11-Pro-Umgebungen ohne Active Directory** und wird **lokal via LGPO.exe** ausgerollt.
 {{< /callout >}}
 
-## Geplante Varianten
+## Variantenlogik
 
-{{< cards cols="2" >}}
-  {{< card link="/de/pricing" title="Solo" subtitle="Für kleine Setups bis 5 Geräte" tag="v1" tagColor="green" >}}
-  {{< card link="/de/pricing" title="Team" subtitle="Für kleine Umgebungen bis 25 Geräte" tag="v1" tagColor="green" >}}
-{{< /cards >}}
+Der Geräteumfang richtet sich nach der gekauften Variante:
 
-## Geplanter Kaufablauf
+- **Solo**: bis zu 5 Geräte
+- **Team**: bis zu 25 Geräte
 
-1. Produktvariante auswählen
-2. Scope und Support-Matrix prüfen
-3. Pre-Deploy-Checkliste durchgehen
-4. Kauf abschließen
-5. Produktpaket erhalten
-6. zuerst auf einem Pilotgerät testen
+Die jeweils maßgebliche Produktbeschreibung, Variante und Bestellbestätigung definieren den konkreten Nutzungsumfang.
+
+## Für wen der Kaufpfad gedacht ist
+
+- kleine Firmen / KMU ohne eigene IT-Abteilung
+- lokal administrierte Windows-11-Pro-Systeme
+- Einzelgeräte und kleine Workgroup-Umgebungen
+- Käufer, die ein **klar abgegrenztes B2B-Produkt** suchen
 
 ## Was Käufer erwarten sollen
 
-- klar abgegrenzter v1-Scope
-- dokumentierte Produktgrenzen
-- technische Begleitdokumentation
-- Fokus auf lokale Anwendung via LGPO.exe
-- konservative Empfehlung: Pilotgerät zuerst :contentReference[oaicite:1]{index=1}
+- ein produktisiertes Hardening-/Policy-Paket
+- klare Scope- und Supportgrenzen
+- begleitende Dokumentation
+- konservative Rollout-Empfehlung mit Pilotgerät zuerst
+- keinen Managed Service und keine individuelle Architekturberatung
 
-## Was aktuell noch nicht öffentlich freigeschaltet ist
+## Was Käufer erhalten sollen
 
-- finaler Checkout
-- Preisangaben
-- automatischer Download-Flow
-- öffentlicher Kaufbutton
-- finaler Lieferprozess
+- das Produktpaket in der gekauften Variante
+- begleitende Dokumentation
+- Scope- und Einsatzhinweise
+- Hinweise für Pilotgerät und kontrollierten Rollout
+- rechtliche Begleitdokumente
 
 ## Vor dem Kauf prüfen
 
-- [Produkt](/de/product)
-- [Pricing](/de/pricing)
-- [Get Started](/de/docs/get-started)
-- [Support-Matrix](/de/docs/support-matrix)
-- [Pre-Deploy-Checkliste](/de/docs/pre-deploy-checklist)
-- [FAQ](/de/docs/faq)
+- [Produkt](product)
+- [Get Started](docs/get-started)
+- [Support-Matrix](docs/support-matrix)
+- [Pre-Deploy-Checkliste](docs/pre-deploy-checklist)
+- [FAQ](docs/faq)
+- [Rechtliches](legal)
 
 {{< callout type="warning" >}}
-Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen und **Backup / Snapshot / Recovery** einplanen. :contentReference[oaicite:2]{index=2}
+Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen und **Backup / Snapshot / Recovery** einplanen.
 {{< /callout >}}
 
-## Lieferung
+## Lieferumfang im Überblick
 
-- [Lieferrahmen](/de/delivery)
+Mehr Details dazu findest du unter [Lieferumfang](delivery).
