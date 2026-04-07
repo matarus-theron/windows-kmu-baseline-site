@@ -21,6 +21,7 @@ This website does **not** replace the product documentation delivered with the p
 ## What this documentation covers
 
 - target audience and scope of v1
+- **Windows 11 Pro 25H2** as the primary target release and **24H2** as still supported
 - supported and unsupported deployment scenarios
 - principles for pilot device, backup and recovery
 - rollout preparation in small workgroup environments
@@ -47,5 +48,5 @@ The product is designed for **careful local deployment**:
 ## Next
 
 - [Product](../product)
-- [Purchase & Delivery](../buy)
+- [Packages & Delivery](../buy)
 - [Legal](../legal)

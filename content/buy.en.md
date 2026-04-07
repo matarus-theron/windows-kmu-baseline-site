@@ -1,22 +1,48 @@
 ---
-title: Purchase & Delivery
-description: Purchase framework, edition logic and delivery scope of the Windows KMU Baseline Pack.
+title: Packages & Delivery
+description: Editions, device scope, pricing and delivery logic of the Windows KMU Baseline Pack.
 ---
 
-This page describes the **purchase and delivery framework** of the product. It is intentionally straightforward: the goal is a **clear scope check** before purchase, not an overloaded marketing flow.
+This page describes the **packages and delivery framework** of the product. The goal is a **clear scope check before purchase** — not an overloaded marketing flow.
 
 {{< callout type="important" >}}
-The product is intended for **small Windows 11 Pro environments without Active Directory** and is **deployed locally via LGPO.exe**.
+The product is intended for **small Windows 11 Pro environments without Active Directory** and is **deployed locally via LGPO.exe**. **The primary target release is 25H2; 24H2 remains supported.**
 {{< /callout >}}
 
-## Edition logic
+## Editions
 
-The device scope depends on the purchased edition:
+### Solo — CHF 149
 
-- **Solo**: up to 5 devices
-- **Team**: up to 25 devices
+For **single devices and very small environments** with **up to 3 devices**.
 
-The binding scope of use is defined by the applicable product description, purchased edition and order confirmation.
+- up to 3 devices
+- Windows 11 Pro 25H2 primary, 24H2 still supported
+- local deployment via LGPO.exe
+- for small workgroup environments
+- no AD / domain GPO
+- self-service oriented scope within the documented framework
+
+### Team — CHF 399
+
+For **small teams and SMEs** with **up to 10 devices**.
+
+- up to 10 devices
+- Windows 11 Pro 25H2 primary, 24H2 still supported
+- local deployment via LGPO.exe
+- for small workgroup environments
+- no AD / domain GPO
+- support depends on the product description, purchased edition and documented scope
+
+### Business — CHF 599
+
+For **larger small-business environments** with **up to 25 devices** — still within the same conservative v1 scope.
+
+- up to 25 devices
+- Windows 11 Pro 25H2 primary, 24H2 still supported
+- local deployment via LGPO.exe
+- for small, locally administered Windows environments
+- no AD / domain GPO
+- not an enterprise, MDM or fleet-management product
 
 ## Who the purchase path is for
 

@@ -8,27 +8,38 @@ This page is currently **not intended to be public**. It serves as a prepared ed
 
 ## Planned editions
 
-### Solo
+### Solo — CHF 149
 
-For small environments with up to 5 devices.
+For **single devices and very small environments** with **up to 3 devices**.
 
-- up to 5 devices
-- Windows 11 Pro 24H2
+- up to 3 devices
+- Windows 11 Pro 25H2 primary, 24H2 still supported
 - local deployment via LGPO.exe
 - for small workgroup environments
 - no AD / domain GPO
-- self-service-oriented scope within the documented framework
+- self-service oriented scope within the documented framework
 
-### Team
+### Team — CHF 399
 
-For small teams and SMEs with up to 25 devices.
+For **small teams and SMEs** with **up to 10 devices**.
+
+- up to 10 devices
+- Windows 11 Pro 25H2 primary, 24H2 still supported
+- local deployment via LGPO.exe
+- for small workgroup environments
+- no AD / domain GPO
+- support depends on the product description and purchased edition
+
+### Business — CHF 599
+
+For **larger small-business environments** with **up to 25 devices**.
 
 - up to 25 devices
-- Windows 11 Pro 24H2
+- Windows 11 Pro 25H2 primary, 24H2 still supported
 - local deployment via LGPO.exe
-- for small workgroup environments
+- for small, locally administered Windows environments
 - no AD / domain GPO
-- support depends on product description and purchased edition
+- still not an enterprise or fleet-management product
 
 ## Note
 

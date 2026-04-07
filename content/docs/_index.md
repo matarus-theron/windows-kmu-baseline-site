@@ -21,6 +21,7 @@ Diese Website ersetzt **nicht** die produktbegleitende Dokumentation im ausgelie
 ## Was diese Doku abdeckt
 
 - Zielgruppe und Scope von v1
+- **Windows 11 Pro 25H2** als primären Zielstand und **24H2** als weiterhin unterstützten Release
 - unterstützte und nicht unterstützte Einsatzszenarien
 - Grundsätze für Pilotgerät, Backup und Recovery
 - Rollout-Vorbereitung in kleinen Workgroup-Umgebungen
@@ -47,5 +48,5 @@ Das Produkt ist auf **vorsichtige lokale Ausrollung** ausgelegt:
 ## Weiter
 
 - [Produkt](../product)
-- [Kauf & Lieferung](../buy)
+- [Pakete & Lieferung](../buy)
 - [Rechtliches](../legal)

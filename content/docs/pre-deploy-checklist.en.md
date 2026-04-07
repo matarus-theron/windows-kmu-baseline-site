@@ -3,13 +3,13 @@ title: Pre-Deployment Checklist
 description: Checkpoints before the first rollout of the Windows KMU Baseline Pack.
 ---
 
-This checklist is intended for the **first pilot-device test** and every later controlled rollout.
+This checklist is intended for the **first pilot-device test** and for every later controlled rollout.
 
 ## Target system and scope
 
-- target system is **Windows 11 Pro**
-- target release is **24H2**
-- system is administered **locally**
+- the target system is **Windows 11 Pro**
+- the preferred release is **25H2**; **24H2** remains acceptable
+- the system is administered **locally**
 - no AD, domain GPO, Intune, MDM or Autopilot management is active
 - deployment scenario matches **single-device / workgroup / small environment**
 - usage is within the documented **v1 scope**

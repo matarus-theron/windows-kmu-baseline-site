@@ -9,7 +9,8 @@ Diese Matrix beschreibt den **verbindlichen Scope von v1**. Alles außerhalb dav
 
 - **Betriebssystem:** Windows 11
 - **Edition:** Pro
-- **Release:** 24H2
+- **Primärer Release-Stand:** 25H2
+- **Zusätzlich unterstützt:** 24H2
 - **Sprache:** de-DE und en-US
 - **Deployment:** lokal via LGPO.exe
 - **Umgebung:** Workgroup / Einzelgeräte / kleine Umgebungen
@@ -23,7 +24,6 @@ Diese Matrix beschreibt den **verbindlichen Scope von v1**. Alles außerhalb dav
 ## Best Effort / optional
 
 - Windows 11 Enterprise
-- Windows 11 25H2 nach Test und Freigabe
 - Browser-Hardening als separates Add-on
 - konservative SMB-/Netzwerk-Härtung nach Umgebungsprüfung
 
@@ -42,8 +42,9 @@ Diese Matrix beschreibt den **verbindlichen Scope von v1**. Alles außerhalb dav
 
 ## Variantenrahmen
 
-- **Solo:** bis zu 5 Geräte
-- **Team:** bis zu 25 Geräte
+- **Solo:** CHF 149, bis zu 3 Geräte
+- **Team:** CHF 399, bis zu 10 Geräte
+- **Business:** CHF 599, bis zu 25 Geräte
 
 ## Wichtig
 

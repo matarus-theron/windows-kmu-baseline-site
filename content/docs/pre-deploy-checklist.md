@@ -8,41 +8,41 @@ Diese Checkliste ist für den **ersten Test auf Pilotgerät** und für jeden sp�
 ## Zielsystem und Scope
 
 - Zielsystem ist **Windows 11 Pro**
-- Zielrelease ist **24H2**
-- System wird **lokal** administriert
+- Zielrelease ist bevorzugt **25H2**; **24H2** bleibt zulässig
+- System wird **lokal administriert**
 - keine AD-, Domain-GPO-, Intune-, MDM- oder Autopilot-Verwaltung aktiv
-- Einsatzszenario entspricht **Einzelgerät / Workgroup / kleiner Umgebung**
-- Nutzung liegt im dokumentierten **v1-Scope**
+- Einsatzszenario passt zu **Einzelgerät / Workgroup / kleiner Umgebung**
+- Nutzung liegt innerhalb des dokumentierten **v1-Scope**
 
-## Sicherheit und Wiederherstellung
+## Sicherheit und Recovery
 
 - aktuelles Backup oder Snapshot vorhanden
 - Wiederherstellung im Fehlerfall bekannt
 - bei BitLocker: **Recovery Key** gesichert
 - lokale Administratorrechte vorhanden
-- Test erfolgt zuerst auf **Nicht-Produktivsystem / Pilotgerät**
+- Test beginnt auf **Nicht-Produktivsystem / Pilotgerät**
 
 ## Systemzustand
 
 - Gerät ist vollständig aktualisiert
-- Neustart nach Updates wurde durchgeführt
-- keine offenen größeren Systemfehler oder Admin-Probleme bekannt
-- grundlegende Erreichbarkeit von Netzwerk, Internet und Diensten ist vorab geprüft
+- Neustart nach Updates durchgeführt
+- keine größeren offenen Systemfehler oder Admin-Probleme bekannt
+- Netzwerk-, Internet- und Basisdienst-Verfügbarkeit vorab geprüft
 
 ## Produktive Abhängigkeiten mitdenken
 
 - Drucker berücksichtigt
 - NAS / Netzlaufwerke berücksichtigt
 - RDP / Fernsupport berücksichtigt, falls benötigt
-- Fachanwendungen und Geschäftssoftware berücksichtigt
-- bekannte Alt-Abhängigkeiten bei SMB / NTLM oder Legacy-Geräten bedacht
+- Fachanwendungen und Geschäftsanwendungen berücksichtigt
+- bekannte Legacy-Abhängigkeiten bei SMB / NTLM oder älteren Geräten berücksichtigt
 
 ## Rollout-Disziplin
 
-- Dokumentation des Testlaufs vorgesehen
-- Ergebnisse auf Pilotgerät werden geprüft, bevor weitere Systeme folgen
-- keine breite Ausrollung ohne sauberen Funktionstest
-- Support- und Scope-Grenzen sind intern verstanden
+- Dokumentation des Testlaufs geplant
+- Ergebnisse am Pilotgerät werden geprüft, bevor weitere Systeme folgen
+- kein breiter Rollout ohne sauberen Funktionstest
+- Support- und Scope-Grenzen intern verstanden
 
 ## Weiter
 

@@ -19,8 +19,9 @@ The standard license is:
 
 For v1 in particular:
 
-- **Solo**: use on up to 5 devices
-- **Team**: use on up to 25 devices
+- **Solo**: use on up to 3 devices
+- **Team**: use on up to 10 devices
+- **Business**: use on up to 25 devices
 
 The binding sources are the **product description**, **purchased edition** and **order confirmation**.
 

@@ -13,7 +13,8 @@ Vor produktivem Einsatz immer zuerst auf **Pilotgerät / Nicht-Produktivsystem**
 
 Bevor überhaupt an Rollout gedacht wird, sollte klar sein:
 
-- Zielsystem ist **Windows 11 Pro 24H2**
+- Zielsystem ist **Windows 11 Pro**
+- **25H2 ist der primäre Zielstand**, **24H2 bleibt weiterhin unterstützt**
 - keine AD-, Domain-GPO-, Intune-, MDM- oder Autopilot-Verwaltung aktiv
 - Einsatz erfolgt in einer **kleinen Workgroup- oder Einzelgeräte-Umgebung**
 - die erwartete Nutzung liegt innerhalb des dokumentierten v1-Scope
@@ -63,4 +64,4 @@ Wenn Pilotgerät und Funktionstest sauber laufen, kann der Rollout **kontrollier
 - [Pre-Deploy-Checkliste](pre-deploy-checklist)
 - [FAQ](faq)
 - [Produkt](../product)
-- [Kauf & Lieferung](../buy)
+- [Pakete & Lieferung](../buy)

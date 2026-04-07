@@ -9,7 +9,8 @@ This matrix describes the **binding scope of v1**. Everything outside of it is e
 
 - **Operating system:** Windows 11
 - **Edition:** Pro
-- **Release:** 24H2
+- **Primary release target:** 25H2
+- **Also supported:** 24H2
 - **Language:** de-DE and en-US
 - **Deployment:** local via LGPO.exe
 - **Environment:** workgroup / single-device / small environments
@@ -23,7 +24,6 @@ This matrix describes the **binding scope of v1**. Everything outside of it is e
 ## Best effort / optional
 
 - Windows 11 Enterprise
-- Windows 11 25H2 after testing and approval
 - browser hardening as a separate add-on
 - conservative SMB / network hardening after environment review
 
@@ -42,8 +42,9 @@ This matrix describes the **binding scope of v1**. Everything outside of it is e
 
 ## Edition framework
 
-- **Solo:** up to 5 devices
-- **Team:** up to 25 devices
+- **Solo:** CHF 149, up to 3 devices
+- **Team:** CHF 399, up to 10 devices
+- **Business:** CHF 599, up to 25 devices
 
 ## Important
 

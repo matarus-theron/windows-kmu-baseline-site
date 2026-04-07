@@ -5,11 +5,6 @@ description: Public summary of data processing related to purchase, licensing, d
 
 This page summarizes the most important privacy topics of the website and product in a **public short form**.
 
-{{< callout type="warning" >}}
-**Complete before publication:** controller name, full address and privacy contact.  
-Without these details, the external legal presentation is not complete.
-{{< /callout >}}
-
 ## What this covers
 
 Personal or technically attributable data may be processed in connection with the product, especially for:
@@ -66,4 +61,4 @@ Where applicable law provides it, data subjects may in particular have rights to
 
 ## Note
 
-This page is a **public summary**. The binding source is the complete **privacy notice**, including controller details and contact information.
+This page is a **public summary**. The binding source is the complete **privacy notice**, including controller details, contact information and the legally relevant specifics.

@@ -13,7 +13,8 @@ Before production use, always start on a **pilot / non-production device** and m
 
 Before even thinking about rollout, make sure:
 
-- the target system is **Windows 11 Pro 24H2**
+- the target system is **Windows 11 Pro**
+- **25H2 is the primary target release**, while **24H2 remains supported**
 - no AD, domain GPO, Intune, MDM or Autopilot management is active
 - the deployment happens in a **small workgroup or single-device environment**
 - the intended use is within the documented v1 scope
@@ -63,4 +64,4 @@ If the pilot device and function test are clean, rollout can be extended **in a 
 - [Pre-Deployment Checklist](pre-deploy-checklist)
 - [FAQ](faq)
 - [Product](../product)
-- [Purchase & Delivery](../buy)
+- [Packages & Delivery](../buy)

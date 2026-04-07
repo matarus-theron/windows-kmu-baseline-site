@@ -3,11 +3,11 @@ title: Windows KMU Baseline Pack
 description: Lokal ausrollbares Hardening- und Policy-Paket für Windows 11 Pro in kleinen Umgebungen ohne Active Directory.
 ---
 
-Produktisiertes Hardening- und Policy-Paket für **Windows 11 Pro 24H2** in **kleinen Workgroup-, Einzelgeräte- und KMU-Umgebungen ohne Active Directory**. Deployment erfolgt **lokal via LGPO.exe**.
+Produktisiertes Hardening- und Policy-Paket für **Windows 11 Pro** in **kleinen Workgroup-, Einzelgeräte- und KMU-Umgebungen ohne Active Directory**. Deployment erfolgt **lokal via LGPO.exe**.
 
 {{< callout type="important" >}}
 **B2B-Produkt für kleine Firmen / KMU in CH, DE und AT.**  
-v1 fokussiert auf **Windows 11 Pro 24H2**, **de-DE / en-US**, **lokale Ausrollung via LGPO.exe** und einen **bewusst engen, supportbaren Scope**.
+v1 fokussiert auf **Windows 11 Pro 25H2** als primären Zielstand. **24H2 bleibt weiterhin unterstützt**. Deployment erfolgt **lokal via LGPO.exe** und innerhalb eines **bewusst engen, supportbaren Scope**.
 {{< /callout >}}
 
 {{< callout type="warning" >}}
@@ -20,7 +20,7 @@ v1 fokussiert auf **Windows 11 Pro 24H2**, **de-DE / en-US**, **lokale Ausrollun
   {{< card link="product" title="Produkt" subtitle="Zielgruppe, Scope und Kernumfang von v1" icon="cube" >}}
   {{< card link="docs/get-started" title="Get Started" subtitle="Womit anfangen und was vor dem Pilotgerät zu prüfen ist" icon="play" >}}
   {{< card link="docs/faq" title="FAQ" subtitle="Kurze Antworten auf die wichtigsten Produktfragen" icon="question-mark-circle" >}}
-  {{< card link="legal" title="Rechtliches" subtitle="Lizenz- und Datenschutz-Kurzfassung für die Website" icon="scale" >}}
+  {{< card link="buy" title="Pakete & Lieferung" subtitle="Varianten, Geräteumfang und Kaufrahmen" icon="credit-card" >}}
 {{< /cards >}}
 
 ## Kernumfang von v1
@@ -55,8 +55,9 @@ v1 fokussiert auf **Windows 11 Pro 24H2**, **de-DE / en-US**, **lokale Ausrollun
 
 Der zulässige Geräteumfang richtet sich nach der gekauften Variante:
 
-- **Solo**: bis zu 5 Geräte
-- **Team**: bis zu 25 Geräte
+- **Solo**: CHF 149, bis zu 3 Geräte
+- **Team**: CHF 399, bis zu 10 Geräte
+- **Business**: CHF 599, bis zu 25 Geräte
 
 ## Rollout-Grundsatz
 
@@ -74,5 +75,5 @@ Das Produkt ist auf **vorsichtige lokale Ausrollung** ausgelegt:
 - [Pre-Deploy-Checkliste](docs/pre-deploy-checklist)
 - [Support-Matrix](docs/support-matrix)
 - [FAQ](docs/faq)
-- [Kauf & Lieferung](buy)
+- [Pakete & Lieferung](buy)
 - [Rechtliches](legal)

@@ -1,22 +1,48 @@
 ---
-title: Kauf & Lieferung
-description: Kaufrahmen, Variantenlogik und Lieferumfang des Windows KMU Baseline Pack.
+title: Pakete & Lieferung
+description: Varianten, Geräteumfang, Preisrahmen und Lieferlogik des Windows KMU Baseline Pack.
 ---
 
-Diese Seite beschreibt den **Kauf- und Lieferrahmen** des Produkts. Sie ist bewusst nüchtern gehalten: Ziel ist eine **klare Scope-Prüfung** vor dem Kauf, nicht ein überladener Marketing-Flow.
+Diese Seite beschreibt die **Pakete und den Lieferrahmen** des Produkts. Ziel ist eine **klare Scope-Prüfung vor dem Kauf** – nicht ein überladener Marketing-Flow.
 
 {{< callout type="important" >}}
-Das Produkt richtet sich an **kleine Windows-11-Pro-Umgebungen ohne Active Directory** und wird **lokal via LGPO.exe** ausgerollt.
+Das Produkt richtet sich an **kleine Windows-11-Pro-Umgebungen ohne Active Directory** und wird **lokal via LGPO.exe** ausgerollt. **Primärer Zielstand ist 25H2; 24H2 bleibt unterstützt.**
 {{< /callout >}}
 
-## Variantenlogik
+## Varianten
 
-Der Geräteumfang richtet sich nach der gekauften Variante:
+### Solo — CHF 149
 
-- **Solo**: bis zu 5 Geräte
-- **Team**: bis zu 25 Geräte
+Für **Einzelgeräte und sehr kleine Umgebungen** mit **bis zu 3 Geräten**.
 
-Die jeweils maßgebliche Produktbeschreibung, Variante und Bestellbestätigung definieren den konkreten Nutzungsumfang.
+- bis zu 3 Geräte
+- Windows 11 Pro 25H2 primär, 24H2 weiterhin unterstützt
+- lokale Ausrollung via LGPO.exe
+- für kleine Workgroup-Umgebungen
+- kein AD / Domain GPO
+- Self-Service-orientierter Scope innerhalb des dokumentierten Rahmens
+
+### Team — CHF 399
+
+Für **kleine Teams und KMU** mit **bis zu 10 Geräten**.
+
+- bis zu 10 Geräte
+- Windows 11 Pro 25H2 primär, 24H2 weiterhin unterstützt
+- lokale Ausrollung via LGPO.exe
+- für kleine Workgroup-Umgebungen
+- kein AD / Domain GPO
+- Support richtet sich nach Produktbeschreibung, gekaufter Variante und dokumentiertem Scope
+
+### Business — CHF 599
+
+Für **größere kleine KMU-Umgebungen** mit **bis zu 25 Geräten** – weiterhin innerhalb des gleichen konservativen v1-Scope.
+
+- bis zu 25 Geräte
+- Windows 11 Pro 25H2 primär, 24H2 weiterhin unterstützt
+- lokale Ausrollung via LGPO.exe
+- für kleine, lokal administrierte Windows-Umgebungen
+- kein AD / Domain GPO
+- kein Enterprise-, MDM- oder Flottenmanagement-Produkt
 
 ## Für wen der Kaufpfad gedacht ist
 
@@ -25,19 +51,19 @@ Die jeweils maßgebliche Produktbeschreibung, Variante und Bestellbestätigung d
 - Einzelgeräte und kleine Workgroup-Umgebungen
 - Käufer, die ein **klar abgegrenztes B2B-Produkt** suchen
 
-## Was Käufer erwarten sollen
+## Was Käufer erwarten sollten
 
-- ein produktisiertes Hardening-/Policy-Paket
+- ein produktisiertes Hardening- / Policy-Paket
 - klare Scope- und Supportgrenzen
 - begleitende Dokumentation
 - konservative Rollout-Empfehlung mit Pilotgerät zuerst
-- keinen Managed Service und keine individuelle Architekturberatung
+- kein Managed Service und keine individuelle Architekturberatung
 
 ## Was Käufer erhalten sollen
 
 - das Produktpaket in der gekauften Variante
 - begleitende Dokumentation
-- Scope- und Einsatzhinweise
+- Scope- und Nutzungshinweise
 - Hinweise für Pilotgerät und kontrollierten Rollout
 - rechtliche Begleitdokumente
 

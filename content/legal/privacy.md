@@ -3,12 +3,7 @@ title: Datenschutz
 description: Öffentliche Kurzfassung zur Datenverarbeitung rund um Kauf, Lizenzierung, Download und Support.
 ---
 
-Diese Seite fasst die wichtigsten Datenschutzthemen der Website und des Produkts auf **öffentlicher Kurzform** zusammen.
-
-{{< callout type="warning" >}}
-**Vor Veröffentlichung ergänzen:** Verantwortlicher, vollständige Adresse und Datenschutz-Kontakt.  
-Ohne diese Angaben ist die rechtliche Außendarstellung nicht vollständig.
-{{< /callout >}}
+Diese Seite fasst die wichtigsten Datenschutzthemen der Website und des Produkts in **öffentlicher Kurzform** zusammen.
 
 ## Worum es hier geht
 
@@ -66,4 +61,4 @@ Soweit anwendbares Datenschutzrecht dies vorsieht, bestehen insbesondere Rechte 
 
 ## Hinweis
 
-Diese Seite ist eine **öffentliche Kurzfassung**. Maßgeblich bleibt die **vollständige Datenschutzerklärung**, einschließlich Verantwortlichenangaben und Kontaktinformationen.
+Diese Seite ist eine **öffentliche Kurzfassung**. Maßgeblich bleibt die **vollständige Datenschutzerklärung** mit Verantwortlichenangaben, Kontaktinformationen und den jeweils verbindlichen Detailangaben.

@@ -1,44 +1,44 @@
 ---
 title: Lieferumfang
-description: Was Käufer im Rahmen des Windows KMU Baseline Pack erwarten sollen.
+description: Geplanter Liefer- und Bereitstellungsrahmen des Windows KMU Baseline Pack.
 ---
 
-Diese Seite beschreibt, **welchen Liefer- und Bereitstellungsrahmen** Käufer vom Produkt erwarten sollen.
+Diese Seite beschreibt den **Liefer- und Bereitstellungsrahmen** des Produkts. Sie soll klarmachen, **was Käufer erhalten** und **was bewusst nicht Teil des Liefermodells ist**.
 
-## Geplanter Lieferumfang
+{{< callout type="important" >}}
+Das Produkt ist auf **kontrollierte digitale Auslieferung** und **lokale Anwendung via LGPO.exe** ausgelegt. Es ist kein anonymes Massen-Download-Angebot und kein Flottenmanagement-Produkt.
+{{< /callout >}}
 
-Käufer sollen je nach Produktstand und gekaufter Variante insbesondere erhalten:
+## Käufer sollen erhalten
 
-- das eigentliche Produktpaket
+- das Produktpaket in der gekauften Variante
 - begleitende Dokumentation
 - Scope- und Einsatzhinweise
 - Hinweise für Pilotgerät und kontrollierten Rollout
-- rechtliche Begleitinformationen
+- rechtliche und produktbezogene Begleitinformationen
 
-## Produktcharakter
+## Variantenrahmen
 
-Das Produkt ist als **digitales, lokal ausrollbares Paket** gedacht. Es ist **kein** anonymer Massen-Download, **kein** Managed Service und **kein** zentraler Flotten-Rollout.
-
-## Betriebliche Realität
-
-Je nach Packaging- und Bootstrapper-Variante können nach erfolgreicher Anwendung **kleine lokale Artefakte** verbleiben, insbesondere:
-
-- menschenlesbares Deployment-Log
-- kleine State-Datei mit produktbezogenen Laufzeitinformationen
-
-Dies dient der Nachvollziehbarkeit und Supportbarkeit eines lokalen Rollouts.
+- **Solo:** CHF 149, bis zu 3 Geräte
+- **Team:** CHF 399, bis zu 10 Geräte
+- **Business:** CHF 599, bis zu 25 Geräte
 
 ## Nicht als Ziel gedacht
 
 - offener anonymer Massen-Download
-- unkontrollierter Sofort-Rollout ohne Vorprüfung
+- unkontrollierter Sofort-Rollout ohne Prüfung
 - Domain-/AD-zentrierte Bereitstellung
 - Zero-Touch- oder Flotten-Deployment im v1-Scope
+- MSP- oder Drittkundennutzung ohne separate Vereinbarung
 
-## Vor der Auslieferung / Nutzung prüfen
+## Vor der Bereitstellung prüfen
 
 - [Produkt](product)
+- [Pakete & Lieferung](buy)
 - [Get Started](docs/get-started)
 - [Support-Matrix](docs/support-matrix)
 - [Pre-Deploy-Checkliste](docs/pre-deploy-checklist)
-- [Rechtliches](legal)
+
+{{< callout type="warning" >}}
+Vor produktivem Einsatz immer zuerst auf einem **Pilotgerät** testen und **Backup / Snapshot / Recovery** einplanen.
+{{< /callout >}}

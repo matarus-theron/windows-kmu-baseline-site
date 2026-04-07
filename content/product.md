@@ -3,11 +3,11 @@ title: Produkt
 description: Zielgruppe, Scope und Kernumfang des Windows KMU Baseline Pack v1.
 ---
 
-Das **Windows KMU Baseline Pack v1** ist ein **lokal ausrollbares Hardening- und Policy-Paket** für **Windows 11 Pro 24H2** in **kleinen Umgebungen ohne Active Directory**. Es ist als **digitales Produkt** gedacht – nicht als Workshop, Managed Service oder Beratungsprojekt.
+Das **Windows KMU Baseline Pack v1** ist ein **lokal ausrollbares Hardening- und Policy-Paket** für **Windows 11 Pro** in **kleinen Umgebungen ohne Active Directory**. Es ist als **digitales B2B-Produkt** gedacht – nicht als Workshop, Managed Service oder Beratungsprojekt.
 
 {{< callout type="important" >}}
 **Kernaussage:** v1 ist bewusst **eng begrenzt**, **modular** und **supportbar**.  
-Deployment erfolgt **lokal via LGPO.exe**. Ziel sind **Einzelgeräte, kleine Workgroups und kleine KMU-Umgebungen**.
+**Primärer Zielstand ist Windows 11 Pro 25H2. 24H2 bleibt weiterhin unterstützt.** Deployment erfolgt **lokal via LGPO.exe**.
 {{< /callout >}}
 
 ## Für wen das Produkt gedacht ist
@@ -30,7 +30,8 @@ Deployment erfolgt **lokal via LGPO.exe**. Ziel sind **Einzelgeräte, kleine Wor
 
 - **Betriebssystem:** Windows 11
 - **Edition:** Pro
-- **Release:** 24H2
+- **Primärer Release-Stand:** 25H2
+- **Zusätzlich unterstützt:** 24H2
 - **Sprache:** de-DE und en-US
 - **Deployment:** lokal via LGPO.exe
 - **Umgebung:** Workgroup / Einzelgeräte / kleine Umgebungen
@@ -38,7 +39,6 @@ Deployment erfolgt **lokal via LGPO.exe**. Ziel sind **Einzelgeräte, kleine Wor
 ## Best Effort / optional
 
 - Windows 11 Enterprise
-- Windows 11 25H2 nach Tests
 - Browser-Hardening als separates Add-on
 - konservative SMB-/Netzwerk-Härtung nach Umgebungsprüfung
 
@@ -55,12 +55,13 @@ Deployment erfolgt **lokal via LGPO.exe**. Ziel sind **Einzelgeräte, kleine Wor
 - Managed-Service- oder MSP-Nutzung ohne separate Vereinbarung
 - individuelle Architektur-, Risiko- oder Compliance-Beratung
 
-## Variantenrahmen
+## Varianten und Geräteumfang
 
 Die gekaufte Variante bestimmt den zulässigen Geräteumfang:
 
-- **Solo**: bis zu 5 Geräte
-- **Team**: bis zu 25 Geräte
+- **Solo**: CHF 149, bis zu 3 Geräte
+- **Team**: CHF 399, bis zu 10 Geräte
+- **Business**: CHF 599, bis zu 25 Geräte
 
 ## Support- und Betriebsgrenzen
 
@@ -78,5 +79,5 @@ Das Produkt ist auf einen **konservativen, dokumentierten Scope** ausgelegt. Dar
 - [Support-Matrix](../docs/support-matrix)
 - [Pre-Deploy-Checkliste](../docs/pre-deploy-checklist)
 - [FAQ](../docs/faq)
-- [Kauf & Lieferung](../buy)
+- [Pakete & Lieferung](../buy)
 - [Rechtliches](../legal)

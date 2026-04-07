@@ -19,6 +19,13 @@ The core idea is **productized knowledge**:
 
 v1 is deliberately designed for **local deployment** in **small workgroup environments**. The product should be usable where there is **no Active Directory** and **no MDM / Intune management** in place.
 
+## Current v1 target state
+
+- **Windows 11 Pro 25H2** as the primary target release
+- **Windows 11 Pro 24H2** still supported
+- **de-DE** and **en-US** as validated languages
+- **LGPO.exe** as the local deployment path
+
 ## Project principles
 
 - modular internal structure

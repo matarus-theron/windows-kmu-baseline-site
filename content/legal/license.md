@@ -19,8 +19,9 @@ Die Standardlizenz ist:
 
 Für v1 gilt insbesondere:
 
-- **Solo**: Nutzung auf bis zu 5 Geräten
-- **Team**: Nutzung auf bis zu 25 Geräten
+- **Solo**: Nutzung auf bis zu 3 Geräten
+- **Team**: Nutzung auf bis zu 10 Geräten
+- **Business**: Nutzung auf bis zu 25 Geräten
 
 Maßgeblich sind jeweils **Produktbeschreibung**, **gekaufte Variante** und **Bestellbestätigung**.
 

@@ -5,11 +5,11 @@ description: Häufige Fragen zum Windows KMU Baseline Pack v1.
 
 ## Für wen ist das Produkt gedacht?
 
-Für kleine Firmen / KMU ohne eigene IT-Abteilung, die **Windows 11 Pro 24H2** lokal administrieren und eine nachvollziehbare Baseline für **Einzelgeräte oder kleine Workgroup-Umgebungen** suchen.
+Für kleine Firmen / KMU ohne eigene IT-Abteilung, die **Windows 11 Pro** lokal administrieren und eine nachvollziehbare Baseline für **Einzelgeräte oder kleine Workgroup-Umgebungen** suchen.
 
 ## Welche Windows-Version wird unterstützt?
 
-Offiziell unterstützt ist **Windows 11 Pro 24H2** in **de-DE** und **en-US**.
+**Windows 11 Pro 25H2** ist der primäre Zielstand von v1. **24H2** bleibt weiterhin unterstützt. Validierte Sprachen sind **de-DE** und **en-US**.
 
 ## Wird Active Directory unterstützt?
 
@@ -32,6 +32,12 @@ v1 fokussiert auf:
 ## Ist das ein Managed Service oder Beratungsprodukt?
 
 Nein. Das Produkt ist als **digitales B2B-Paket** gedacht, nicht als Workshop, Managed Service oder individuelle Beratungsleistung.
+
+## Welche Varianten gibt es?
+
+- **Solo:** CHF 149, bis zu 3 Geräte
+- **Team:** CHF 399, bis zu 10 Geräte
+- **Business:** CHF 599, bis zu 25 Geräte
 
 ## Ist MSP- oder Drittkundennutzung enthalten?
 
