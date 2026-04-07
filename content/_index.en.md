@@ -14,7 +14,10 @@ A technically clean, modular hardening and policy package for **Windows 11 Pro**
 ## Get started
 
 {{< cards cols="2" >}}
+  {{< card link="/en/product" title="Product" subtitle="Editions, core scope and boundaries of v1" icon="cube" >}}
+  {{< card link="/en/buy" title="Buy" subtitle="Product editions and purchase preparation" icon="cube" >}}
   {{< card link="/en/docs" title="Documentation" subtitle="Technical entry point, scope and orientation" icon="book-open" >}}
+  {{< card link="/en/docs/get-started" title="Get Started" subtitle="Recommended starting point for pilot and initial review" icon="play" >}}
   {{< card link="/en/docs/support-matrix" title="Support Matrix" subtitle="What is officially supported and what is not" icon="shield-check" >}}
   {{< card link="/en/docs/pre-deploy-checklist" title="Pre-Deployment Checklist" subtitle="Check the basics before the pilot device" icon="check-circle" >}}
   {{< card link="/en/docs/faq" title="FAQ" subtitle="Short answers to common questions" icon="question-mark-circle" >}}

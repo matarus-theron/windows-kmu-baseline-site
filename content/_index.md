@@ -14,7 +14,10 @@ Ein technisch sauberes, modular aufgebautes Hardening- und Policy-Paket für **W
 ## Einstieg
 
 {{< cards cols="2" >}}
+  {{< card link="/de/product" title="Produkt" subtitle="Varianten, Kernumfang und Scope von v1" icon="cube" >}}
+  {{< card link="/de/buy" title="Kaufen" subtitle="Produktvarianten und Kaufvorbereitung" icon="cube" >}}
   {{< card link="/de/docs" title="Dokumentation" subtitle="Technischer Einstieg, Scope und Orientierung" icon="book-open" >}}
+  {{< card link="/de/docs/get-started" title="Get Started" subtitle="Empfohlener Einstieg für Pilot und erste Prüfung" icon="play" >}}
   {{< card link="/de/docs/support-matrix" title="Support-Matrix" subtitle="Was offiziell unterstützt wird und was nicht" icon="shield-check" >}}
   {{< card link="/de/docs/pre-deploy-checklist" title="Pre-Deploy-Checkliste" subtitle="Vor dem Pilotgerät sauber prüfen" icon="check-circle" >}}
   {{< card link="/de/docs/faq" title="FAQ" subtitle="Kurze Antworten auf die häufigsten Fragen" icon="question-mark-circle" >}}
