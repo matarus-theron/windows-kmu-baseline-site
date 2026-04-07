@@ -2,7 +2,16 @@
 title: Windows KMU Basline
 languageCode: de-CH
 defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
+
+languages:
+  de:
+    languageName: Deutsch
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
 
 # import hextra as module
 module:
@@ -21,23 +30,29 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - identifier: docs
+      name: Docs
       pageRef: /docs
       weight: 1
-    - name: FAQ
+    - identifier: faq
+      name: FAQ
       pageRef: /docs/faq
       weight: 2
-    - name: Legal
+    - identifier: legal
+      name: Legal
       pageRef: /legal
       weight: 3
-    - name: About
+    - identifier: about
+      name: About
       pageRef: /about
       weight: 4
-    - name: Search
+    - identifier: search
+      name: Search
       weight: 5
       params:
         type: search
-    - name: GitHub
+    - identifier: github
+      name: GitHub
       weight: 6
       url: "https://github.com/matarus-theron/windows-kmu-baseline-pack"
       params:
