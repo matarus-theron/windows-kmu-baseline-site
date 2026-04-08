@@ -92,6 +92,12 @@ params:
   navbar:
     displayTitle: true
     displayLogo: true
+    logo:
+      path: favicon.svg
+      dark: icon.svg
+      link: /
+      width: 34
+      height: 34
   page:
     width: normal
   footer:
