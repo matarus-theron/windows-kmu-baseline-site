@@ -1,28 +1,14 @@
-# Windows KMU Baseline Site
+# HardenLab site
 
-Public website for the **Windows KMU Baseline Pack**.
+Hugo/Hextra-Site fuer **HardenLab**.
 
-## Purpose
+## Zielbild
+- Hauptdomain: `https://www.hardenlab.ch/`
+- Marke: **HardenLab**
+- Produkt v1: **HardenLab Local Pack**
+- Tagline: **Windows-Haertung ohne Active Directory**
 
-This repository contains the public-facing website for the project.
-
-## Technical source of truth
-
-The technical source of truth for the product is the product repository:
-
-- https://github.com/matarus-theron/windows-kmu-baseline-pack
-
-## Scope of this repository
-
-This repository contains:
-
-- public product pages
-- public documentation pages
-- legal and privacy pages
-- multilingual website content
-
-It does not define the technical implementation of the product itself.
-
-## Status
-
-Work in progress.
+## Deployment
+- statisch via Hugo + Hextra
+- GitHub Pages mit Custom Domain `www.hardenlab.ch`
+- `static/CNAME` ist gesetzt
