@@ -1,7 +1,8 @@
-This site ZIP is a clean replacement package aligned to the current naming and scope decisions:
+Final replacement package for the site repo.
+
+Key correction in this package:
+- multilingual content uses Hugo's classic suffix model again (`page.md` + `page.en.md`)
+- no `content/de/...` / `content/en/...` split
 - brand: HardenLab
 - product v1: HardenLab Local Pack
-- main domain: https://www.hardenlab.ch/
-- GitHub Pages custom domain expected: www.hardenlab.ch
-
-Before launch, merge or adapt these files into the live site repo and verify links, menu structure, and multilingual content.
+- canonical domain: https://www.hardenlab.ch/

@@ -12,28 +12,45 @@ languages:
   de:
     languageName: Deutsch
     weight: 1
+    menu:
+      main:
+        - identifier: product
+          name: Produkt
+          pageRef: /product
+          weight: 1
+        - identifier: get-started
+          name: Get Started
+          pageRef: /get-started
+          weight: 2
+        - identifier: buy
+          name: Kaufen
+          pageRef: /buy
+          weight: 3
+        - identifier: faq
+          name: FAQ
+          pageRef: /faq
+          weight: 4
   en:
     languageName: English
     weight: 2
-
-menu:
-  main:
-    - identifier: product
-      name: Produkt
-      pageRef: /de/product
-      weight: 1
-    - identifier: get-started
-      name: Get Started
-      pageRef: /de/get-started
-      weight: 2
-    - identifier: buy
-      name: Kaufen
-      pageRef: /de/buy
-      weight: 3
-    - identifier: faq
-      name: FAQ
-      pageRef: /de/faq
-      weight: 4
+    menu:
+      main:
+        - identifier: product
+          name: Product
+          pageRef: /product
+          weight: 1
+        - identifier: get-started
+          name: Get Started
+          pageRef: /get-started
+          weight: 2
+        - identifier: buy
+          name: Buy
+          pageRef: /buy
+          weight: 3
+        - identifier: faq
+          name: FAQ
+          pageRef: /faq
+          weight: 4
 
 params:
   navbar:

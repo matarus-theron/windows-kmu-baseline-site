@@ -8,7 +8,9 @@ Hugo/Hextra-Site fuer **HardenLab**.
 - Produkt v1: **HardenLab Local Pack**
 - Tagline: **Windows-Haertung ohne Active Directory**
 
-## Deployment
-- statisch via Hugo + Hextra
-- GitHub Pages mit Custom Domain `www.hardenlab.ch`
-- `static/CNAME` ist gesetzt
+## Sprachmodell
+Diese finale ZIP nutzt wieder das klassische Hugo-Suffixmodell:
+- `buy.md`
+- `buy.en.md`
+
+Nicht `content/de/...` und `content/en/...`.

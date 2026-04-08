@@ -15,7 +15,7 @@ title: Get Started
 ## Empfohlene Kernbaseline
 
 ```powershell
-.0-RC-Run-RecommendedSetup.ps1 -Section Defender,Firewall,UAC_Lsa,WindowsUpdate
+.\0010-RC-Run-RecommendedSetup.ps1 -Mode Sections -Section Defender,Firewall,UAC_Lsa,WindowsUpdate -SkipPolicyDefinitions
 ```
 
 ## Hinweis
