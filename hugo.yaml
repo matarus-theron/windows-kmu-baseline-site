@@ -1,6 +1,6 @@
 # Hugo configuration file
-baseURL: "https://matarus-theron.github.io/windows-kmu-baseline-site/"
-title: Windows KMU Baseline
+baseURL: "https://www.hardenlab.ch/"
+title: HardenLab
 languageCode: de-CH
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
