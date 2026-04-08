@@ -30,6 +30,24 @@ languages:
           name: FAQ
           pageRef: /faq
           weight: 4
+        - identifier: about
+          name: Über
+          pageRef: /about
+          weight: 5
+        - identifier: language
+          name: Sprache
+          weight: 98
+          params:
+            type: language-switch
+            label: true
+            icon: globe-alt
+        - identifier: theme
+          name: Theme
+          weight: 99
+          params:
+            type: theme-toggle
+            label: false
+
   en:
     languageName: English
     weight: 2
@@ -51,11 +69,29 @@ languages:
           name: FAQ
           pageRef: /faq
           weight: 4
+        - identifier: about
+          name: About
+          pageRef: /about
+          weight: 5
+        - identifier: language
+          name: Language
+          weight: 98
+          params:
+            type: language-switch
+            label: true
+            icon: globe-alt
+        - identifier: theme
+          name: Theme
+          weight: 99
+          params:
+            type: theme-toggle
+            label: false
+
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
   page:
     width: normal
   footer:
