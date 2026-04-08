@@ -1,14 +1,14 @@
 ---
-title: HardenLab Local Pack — Windows 11 Hardening fuer KMU
+title: HardenLab Local Pack
 ---
 
-# HardenLab Local Pack — Windows 11 Hardening fuer KMU
+# Windows 11 Hardening fuer KMU
 
 ## Varianten
 
-- **Solo** — bis 3 Geraete
-- **Team** — bis 10 Geraete
-- **Business** — bis 25 Geraete
+- **Solo** — bis 3 Geräte
+- **Team** — bis 10 Geräte
+- **Business** — bis 25 Geräte
 
 ## Scope vor Kauf
 
@@ -22,7 +22,7 @@ Bitte **nicht** kaufen fuer:
 
 ## Lieferlogik
 
-- lokales Deployment via LGPO.exe
+- lokales Deployment
 - konservativer, supportbarer Scope
 - kontrollierte digitale Auslieferung
 - keine zentral verwaltete Flottenplattform in v1

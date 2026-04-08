@@ -2,8 +2,6 @@
 title: HardenLab Local Pack for Windows 11
 ---
 
-# HardenLab Local Pack for Windows 11
-
 **Baseline hardening for Windows 11 without Active Directory**
 
 HardenLab Local Pack is the current v1 product for small local Windows environments without AD.
@@ -14,7 +12,6 @@ HardenLab Local Pack is the current v1 product for small local Windows environme
 - 25H2 as primary target, 24H2 still supported
 - de-DE and en-US
 - standalone, workgroup and other small local environments
-- local deployment via LGPO.exe
 
 ## Core baseline v1
 

@@ -2,8 +2,6 @@
 title: HardenLab
 ---
 
-# HardenLab
-
 **HardenLab Local Pack**
 
 Windows hardening without Active Directory.

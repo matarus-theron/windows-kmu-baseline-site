@@ -2,11 +2,9 @@
 title: HardenLab
 ---
 
-# HardenLab
-
 **HardenLab Local Pack**
 
-Windows-Haertung ohne Active Directory.
+Windows-Härtung ohne Active Directory.
 
 HardenLab Local Pack ist ein konservatives, lokal ausrollbares Hardening-Paket fuer **Windows 11** in **Standalone-, Workgroup- und kleinen lokalen Umgebungen ohne Active Directory**.
 
@@ -29,7 +27,6 @@ HardenLab Local Pack ist ein konservatives, lokal ausrollbares Hardening-Paket f
 - Windows 11 Pro und Enterprise
 - 25H2 primaer, 24H2 weiterhin unterstuetzt
 - de-DE und en-US
-- Deployment lokal via LGPO.exe
 - Kernbaseline: Defender, Firewall, UAC/LSA, Windows Update
 
 Weiter geht es auf der [Produktseite](/product/).

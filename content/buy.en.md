@@ -1,8 +1,8 @@
 ---
-title: HardenLab Local Pack — Windows 11 Hardening for SMBs
+title: HardenLab Local Pack
 ---
 
-# HardenLab Local Pack — Windows 11 Hardening for SMBs
+# Windows 11 Hardening for SMBs
 
 ## Variants
 
@@ -22,7 +22,7 @@ Please do **not** buy it for:
 
 ## Delivery model
 
-- local deployment via LGPO.exe
+- local deployment
 - conservative, supportable scope
 - controlled digital delivery
 - no centrally managed fleet platform in v1
