@@ -1,224 +1,177 @@
 ---
-title: Datenschutz
+title: Datenschutzerklärung
 ---
 
-## fuer Kaufabwicklung, Lizenzaktivierung, Lizenzvalidierung und Produktdownload
+# Datenschutzerklärung
 
-**Version:** 1.0-draft  
-**Stand:** 2026-04-06  
-**Verantwortlicher:** Thorsten Jägle, Rupperswil, Schweiz  
-**Verantwortlicher:** info@hardenlab.ch
+Stand: 8. April 2026
 
-> Dieser Text ist ein technischer Arbeitsentwurf fuer das Projekt und ersetzt keine anwaltliche Pruefung.
+Diese Datenschutzerklärung informiert darüber, wie HardenLab personenbezogene Daten im Zusammenhang mit dieser Website, Kontaktanfragen, digitalen Produktkäufen, Produktbereitstellung sowie Support bearbeitet.
 
----
+## 1. Verantwortlicher
 
-## 1. Zweck dieser Datenschutzerklaerung
+Verantwortlich für die in dieser Datenschutzerklärung beschriebene Datenbearbeitung ist:
 
-Diese Datenschutzerklaerung informiert ueber die Verarbeitung personenbezogener und technisch zuordenbarer Daten im Zusammenhang mit:
+**HardenLab**  
+Thorsten Jägle  
+Rupperswil, Schweiz  
+E-Mail: info@hardenlab.ch  
+Website: https://www.hardenlab.ch/
 
-- Kaufabwicklung
-- Lizenzaktivierung
-- Lizenzvalidierung
-- Download-Freigabe
-- Auslieferung von Produktdateien
-- Missbrauchs- und Sicherheitspruefungen
+## 2. Geltungsbereich
+
+Diese Datenschutzerklärung gilt insbesondere für:
+
+- den Besuch dieser Website
+- Kontaktaufnahmen per E-Mail
+- Kaufabwicklung über externe Verkaufs- und Zahlungsdienstleister
+- Bereitstellung und Auslieferung digitaler Produkte
+- lizenzbezogene Prozesse wie Aktivierung, Validierung und Download-Freigabe
 - Supportanfragen
 
-Sie gilt insbesondere fuer den Einsatz des Bootstrappers, des Download-Endpoints sowie fuer die Verkaufsabwicklung ueber externe Zahlungsdienstleister.
+## 3. Welche Daten wir bearbeiten
 
----
+Je nach Nutzung unserer Website und unserer Leistungen können wir insbesondere folgende Daten bearbeiten:
 
-## 2. Verantwortlicher
+### a) Daten beim Besuch der Website
+Beim Zugriff auf die Website können technische Verbindungs- und Nutzungsdaten anfallen, insbesondere:
 
-Verantwortlicher fuer die in dieser Datenschutzerklaerung beschriebene Datenverarbeitung ist:
-
-**[Vorname Nachname / Markenname]**  
-[Ort oder vollstaendige Adresse]  
-Schweiz  
-[E-Mail-Adresse]
-
----
-
-## 3. Kategorien verarbeiteter Daten
-
-Im Rahmen der technischen Bereitstellung und Lizenzpruefung koennen insbesondere folgende Daten verarbeitet werden:
-
-### a) Kauf- und Bestelldaten
-- Name des Kaeufers oder der Organisation
-- E-Mail-Adresse
-- Bestellnummer
-- Produkt-ID / Varianten-ID
-- Lizenzkennung / License Key
-- Angaben des Zahlungsdienstleisters
-
-### b) Technische Aktivierungs- und Validierungsdaten
-- Instance-ID
-- Hostname
-- Bootstrapper-Version
-- Produktversion
-- angeforderter Modus oder angeforderte Module/Sections
-- Zeitstempel
-- technische Antwortcodes
-- Integritaets- und Download-Metadaten
-
-### c) Verbindungs- und Sicherheitsdaten
 - IP-Adresse
-- Request-Header
-- Rate-Limit-Informationen
-- Missbrauchs- und Fehlerlogs
-- serverseitige Protokolldaten
+- Datum und Uhrzeit des Zugriffs
+- aufgerufene Inhalte und Dateien
+- Browser- und Geräteinformationen
+- Betriebssystem
+- Referrer-Informationen
+- Server-Logdaten
 
-### d) Supportdaten
-- vom Kunden uebermittelte Log-Dateien
-- State-Dateien
-- Fehlerbeschreibungen
-- sonstige freiwillig uebermittelte Angaben
+Diese Daten fallen typischerweise aus technischen Gründen an, um die Website bereitzustellen, die Sicherheit zu gewährleisten und Fehler zu analysieren.
 
----
+### b) Kontaktdaten
+Wenn Sie uns kontaktieren, bearbeiten wir die von Ihnen übermittelten Angaben, insbesondere:
 
-## 4. Zwecke der Verarbeitung
+- Name
+- E-Mail-Adresse
+- Inhalt Ihrer Nachricht
+- allfällige weitere Informationen, die Sie uns freiwillig übermitteln
 
-Die Daten werden insbesondere zu folgenden Zwecken verarbeitet:
+### c) Kauf- und Bestelldaten
+Wenn Sie ein Produkt kaufen oder kaufen möchten, können im Zusammenhang mit dem Kaufprozess insbesondere folgende Daten bearbeitet werden:
 
-- Bereitstellung und Auslieferung des Produkts
-- Aktivierung und Validierung von Lizenzen
-- Kontrolle des vertragsgemaessen Zugangs
-- Verhinderung von Missbrauch, Weitergabe und Mehrfachnutzung ausserhalb des Lizenzumfangs
-- Bereitstellung kurzlebiger Download-Freigaben
-- Fehleranalyse und Betriebssicherheit
-- Bearbeitung von Supportanfragen
-- Erfuellung gesetzlicher Pflichten
-- Durchsetzung oder Abwehr rechtlicher Ansprueche
+- Name
+- E-Mail-Adresse
+- Firmenname, sofern angegeben
+- Bestell- und Transaktionsdaten
+- Produkt- und Varianteninformationen
+- Lizenzbezogene Informationen
+- Informationen, die uns vom Verkaufs- oder Zahlungsdienstleister übermittelt werden
 
----
+### d) Daten zur Produktbereitstellung und Lizenznutzung
+Soweit für die Bereitstellung, Auslieferung, Aktivierung, Validierung oder Absicherung digitaler Produkte erforderlich, können insbesondere folgende technische Daten bearbeitet werden:
 
-## 5. Rechtsgrundlagen / Rechtfertigung
+- Lizenzkennung oder vergleichbare Zuordnungsdaten
+- Produkt- oder Versionsinformationen
+- Zeitstempel
+- technische Status- und Antwortdaten
+- downloadbezogene Metadaten
+- sicherheits- und missbrauchsbezogene Logdaten
+- geräte- oder instanzbezogene technische Kennungen, soweit dies für Lizenz- oder Downloadprozesse erforderlich ist
 
-### Schweiz
-Soweit schweizerisches Datenschutzrecht anwendbar ist, erfolgt die Bearbeitung insbesondere:
-- zur Vertragserfuellung
-- zur Wahrung berechtigter Interessen am sicheren Betrieb, an Missbrauchsverhinderung und an der Durchsetzung vertraglicher Rechte
-- zur Erfuellung gesetzlicher Pflichten
+### e) Supportdaten
+Wenn Sie Support anfragen, können wir zusätzlich Daten bearbeiten, die Sie uns für die Bearbeitung Ihres Anliegens zur Verfügung stellen, insbesondere:
 
-### EU / EWR
-Soweit die DSGVO anwendbar ist, erfolgt die Verarbeitung insbesondere:
-- zur Erfuellung eines Vertrags oder zur Durchfuehrung vorvertraglicher Massnahmen
-- zur Wahrung berechtigter Interessen
-- zur Erfuellung rechtlicher Verpflichtungen
-- gegebenenfalls auf Basis einer Einwilligung, soweit eine solche im Einzelfall erforderlich ist
+- Fehlermeldungen
+- Log-Dateien
+- Konfigurations- oder Zustandsinformationen
+- Beschreibungen Ihrer Umgebung und Ihres Problems
 
----
+## 4. Zu welchen Zwecken wir Daten bearbeiten
 
-## 6. Herkunft der Daten
+Wir bearbeiten personenbezogene Daten insbesondere zu folgenden Zwecken:
 
-Die Daten stammen insbesondere:
-- aus dem Kaufprozess
-- aus der Lizenzaktivierung und Lizenzvalidierung
-- aus Requests an den Download-Endpoint
-- aus Log- und Telemetriedaten der eingesetzten Systeme
-- aus Supportanfragen des Kunden
-- von externen Zahlungs- oder Verkaufsdienstleistern
+- Bereitstellung und Betrieb der Website
+- Beantwortung von Kontaktanfragen
+- Abwicklung von Bestellungen
+- Bereitstellung und Auslieferung digitaler Produkte
+- Aktivierung, Validierung und Schutz von Lizenzen
+- Verhinderung von Missbrauch und unberechtigter Nutzung
+- Sicherstellung von Stabilität, Integrität und Sicherheit unserer Systeme
+- Fehleranalyse und technischer Support
+- Erfüllung gesetzlicher Pflichten
+- Durchsetzung, Ausübung oder Abwehr rechtlicher Ansprüche
 
----
+## 5. Verkaufs- und Zahlungsabwicklung
 
-## 7. Empfaenger und Auftragsverarbeiter
+Für den Verkauf unserer digitalen Produkte können wir externe Dienstleister einsetzen.
 
-Daten koennen an folgende Kategorien von Empfaengern uebermittelt oder durch diese verarbeitet werden, soweit dies fuer die genannten Zwecke erforderlich ist:
+Soweit Käufe über **Lemon Squeezy** abgewickelt werden, erfolgt der Checkout sowie die kaufbezogene Zahlungs- und Bestellabwicklung über diesen Anbieter. In diesem Zusammenhang können kauf- und transaktionsbezogene Daten durch Lemon Squeezy nach dessen eigenen rechtlichen und datenschutzrechtlichen Vorgaben bearbeitet werden.
 
-- Zahlungsdienstleister / Merchant of Record
-- Hosting- und Infrastrukturprovider
-- Object-Storage- oder CDN-Anbieter
-- E-Mail- und Support-Dienstleister
-- IT- und Sicherheitsdienstleister
-- Rechtsberater oder Behoerden, soweit rechtlich erforderlich
+Bitte beachten Sie daher auch die Datenschutzinformationen des jeweils eingesetzten Checkout- oder Zahlungsanbieters.
 
-Aktuell ist fuer die kaufbezogene Zahlungsabwicklung **Lemon Squeezy** als Merchant of Record vorgesehen.
+## 6. Weitergabe an Dritte und Auftragsbearbeiter
 
----
+Wir können personenbezogene Daten an Dritte weitergeben oder durch Dritte bearbeiten lassen, soweit dies für die genannten Zwecke erforderlich ist. Dazu können insbesondere gehören:
 
-## 8. Internationale Datenuebermittlung
+- Hosting- und Infrastrukturanbieter
+- Anbieter für Website-Betrieb und technische Auslieferung
+- Verkaufs- und Zahlungsdienstleister
+- E-Mail- und Kommunikationsdienstleister
+- Support- und IT-Dienstleister
+- Rechtsberater, Behörden oder Gerichte, soweit dies rechtlich erforderlich oder zur Rechtsdurchsetzung notwendig ist
 
-Je nach eingesetzten Dienstleistern koennen Daten auch ausserhalb der Schweiz oder des EWR verarbeitet werden.
+Wir achten darauf, nur diejenigen Daten weiterzugeben, die für den jeweiligen Zweck erforderlich sind.
 
-Soweit erforderlich, erfolgt eine solche Uebermittlung nur unter Beachtung der anwendbaren datenschutzrechtlichen Anforderungen, insbesondere durch geeignete vertragliche, organisatorische oder gesetzliche Garantien.
+## 7. Datenbearbeitung im Ausland
 
----
+Wir können personenbezogene Daten auch im Ausland bearbeiten oder durch Dienstleister im Ausland bearbeiten lassen.
 
-## 9. Speicherdauer
+Wenn Daten in Staaten ohne gleichwertigen gesetzlichen Datenschutz übermittelt werden, achten wir auf angemessene vertragliche, technische oder organisatorische Schutzmassnahmen, soweit dies rechtlich erforderlich ist.
 
-Personenbezogene oder technisch zuordenbare Daten werden nur so lange gespeichert, wie dies fuer die genannten Zwecke erforderlich ist.
+## 8. Aufbewahrungsdauer
 
-Massgebliche Kriterien sind insbesondere:
-- Dauer der Vertragsbeziehung
-- Dauer des Lizenz- und Supportverhaeltnisses
-- Missbrauchs- und Sicherheitsinteressen
-- gesetzliche Aufbewahrungspflichten
-- Verjaehrungsfristen fuer moegliche Rechtsansprueche
+Wir bearbeiten und speichern personenbezogene Daten nur so lange, wie dies für den jeweiligen Zweck erforderlich ist oder eine gesetzliche Aufbewahrungspflicht besteht.
 
-Support- und Sicherheitslogs werden grundsaetzlich nur fuer einen begrenzten Zeitraum vorgehalten, sofern keine laengere Aufbewahrung im Einzelfall erforderlich ist.
+Insbesondere können Daten aufbewahrt werden:
 
----
+- solange dies für den Betrieb der Website erforderlich ist
+- solange dies für Kaufabwicklung, Produktbereitstellung oder Lizenzprozesse erforderlich ist
+- solange dies für die Bearbeitung von Supportfällen erforderlich ist
+- solange gesetzliche Aufbewahrungs-, Dokumentations- oder Nachweispflichten bestehen
+- solange dies zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist
 
-## 10. Pflicht zur Bereitstellung
+## 9. Datensicherheit
 
-Bestimmte technische Daten sind fuer die Lizenzaktivierung, Lizenzvalidierung und Download-Freigabe erforderlich.
+Wir treffen angemessene technische und organisatorische Sicherheitsmassnahmen, um personenbezogene Daten vor unbefugtem Zugriff, Verlust, Missbrauch, Manipulation oder unzulässiger Offenlegung zu schützen.
 
-Ohne Bereitstellung dieser Daten kann das Produkt unter Umstaenden nicht aktiviert, nicht validiert oder nicht heruntergeladen werden.
+Dazu gehören insbesondere Massnahmen im Bereich:
 
----
-
-## 11. Automatisierte Entscheidungen
-
-Es koennen automatisierte technische Entscheidungen getroffen werden, etwa:
-- Ablehnung ungueltiger Lizenzrequests
-- Sperrung oder Verzoegerung bei Rate Limits
-- Verweigerung eines Downloads bei Produkt- oder Lizenzmismatch
-- Erkennung offensichtlicher Missbrauchsmuster
-
-Solche Entscheidungen dienen dem sicheren Betrieb und der Durchsetzung des Lizenzmodells.
-
----
-
-## 12. Rechte betroffener Personen
-
-Soweit anwendbares Datenschutzrecht dies vorsieht, haben betroffene Personen insbesondere das Recht auf:
-- Auskunft
-- Berichtigung
-- Loeschung
-- Einschraenkung der Verarbeitung
-- Widerspruch
-- Datenherausgabe oder Datenuebertragung, soweit gesetzlich vorgesehen
-- Widerruf einer Einwilligung mit Wirkung fuer die Zukunft
-
-Anfragen koennen an die oben genannte Kontaktadresse gerichtet werden.
-
----
-
-## 13. Sicherheitsmassnahmen
-
-Es werden angemessene technische und organisatorische Massnahmen getroffen, um Daten vor unbefugtem Zugriff, Verlust, Missbrauch, Manipulation oder unzulaessiger Offenlegung zu schuetzen.
-
-Dazu gehoeren insbesondere:
-- Zugriffsbeschraenkungen
+- Zugriffsbegrenzung
+- System- und Zugriffsschutz
 - Protokollierung
-- Transportverschluesselung
-- Integritaetspruefungen
-- kurzlebige Download-Freigaben
-- Massnahmen zur Missbrauchserkennung
+- Transportverschlüsselung, soweit angemessen
+- Integritäts- und Sicherheitskontrollen
 
----
+## 10. Ihre Rechte
 
-## 14. Externe Dienste und Drittkomponenten
+Soweit das anwendbare Datenschutzrecht dies vorsieht, haben betroffene Personen insbesondere das Recht:
 
-Fuer Kaufabwicklung, Download-Auslieferung, Infrastruktur, Hosting, Storage oder Support koennen externe Dienste eingesetzt werden.
+- Auskunft über bearbeitete personenbezogene Daten zu verlangen
+- unrichtige personenbezogene Daten berichtigen zu lassen
+- die Löschung personenbezogener Daten zu verlangen
+- die Einschränkung der Bearbeitung zu verlangen
+- einer Bearbeitung zu widersprechen
+- eine erteilte Einwilligung mit Wirkung für die Zukunft zu widerrufen
+- Datenherausgabe oder Datenübertragung zu verlangen, soweit dies gesetzlich vorgesehen ist
 
-Zudem kann das Produkt Drittkomponenten wie **LGPO.exe** voraussetzen. Solche Komponenten unterliegen ihren eigenen Nutzungsbedingungen und koennen eigene Datenverarbeitungen ausloesen, fuer die der jeweilige Drittanbieter verantwortlich ist.
+Zur Ausübung solcher Rechte können Sie uns unter **info@hardenlab.ch** kontaktieren.
 
----
+## 11. Änderungen dieser Datenschutzerklärung
 
-## 15. Aenderungen dieser Datenschutzerklaerung
+Wir können diese Datenschutzerklärung jederzeit anpassen, insbesondere wenn sich unsere Website, unsere Leistungen, unsere eingesetzten Dienstleister oder die rechtlichen Anforderungen ändern.
 
-Diese Datenschutzerklaerung kann angepasst werden, wenn sich rechtliche, technische oder organisatorische Rahmenbedingungen aendern.
+Es gilt die jeweils auf dieser Website veröffentlichte Fassung.
 
-Massgeblich ist jeweils die zum Zeitpunkt der Nutzung veroeffentlichte Fassung.
+## 12. Kontakt
+
+Bei Fragen zum Datenschutz können Sie uns unter folgender Adresse kontaktieren:
+
+**info@hardenlab.ch**

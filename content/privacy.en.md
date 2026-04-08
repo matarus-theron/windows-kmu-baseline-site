@@ -1,224 +1,177 @@
 ---
-title: Privacy
+title: Privacy Policy
 ---
 
-## fuer Kaufabwicklung, Lizenzaktivierung, Lizenzvalidierung und Produktdownload
+# Privacy Policy
 
-**Version:** 1.0-draft  
-**Stand:** 2026-04-06  
-**Verantwortlicher:** Thorsten Jägle, Rupperswil, Schweiz  
-**Verantwortlicher:** info@hardenlab.ch
+Last updated: April 8, 2026
 
-> Dieser Text ist ein technischer Arbeitsentwurf fuer das Projekt und ersetzt keine anwaltliche Pruefung.
+This Privacy Policy explains how HardenLab processes personal data in connection with this website, contact requests, digital product purchases, product delivery, and support.
 
----
+## 1. Controller
 
-## 1. Zweck dieser Datenschutzerklaerung
+The controller responsible for the data processing described in this Privacy Policy is:
 
-Diese Datenschutzerklaerung informiert ueber die Verarbeitung personenbezogener und technisch zuordenbarer Daten im Zusammenhang mit:
+**HardenLab**  
+Thorsten Jägle  
+Rupperswil, Switzerland  
+Email: info@hardenlab.ch  
+Website: https://www.hardenlab.ch/
 
-- Kaufabwicklung
-- Lizenzaktivierung
-- Lizenzvalidierung
-- Download-Freigabe
-- Auslieferung von Produktdateien
-- Missbrauchs- und Sicherheitspruefungen
-- Supportanfragen
+## 2. Scope
 
-Sie gilt insbesondere fuer den Einsatz des Bootstrappers, des Download-Endpoints sowie fuer die Verkaufsabwicklung ueber externe Zahlungsdienstleister.
+This Privacy Policy applies in particular to:
 
----
+- visits to this website
+- contact by email
+- order processing through external sales and payment providers
+- provision and delivery of digital products
+- license-related processes such as activation, validation, and download access
+- support requests
 
-## 2. Verantwortlicher
+## 3. What data we process
 
-Verantwortlicher fuer die in dieser Datenschutzerklaerung beschriebene Datenverarbeitung ist:
+Depending on how you use our website and services, we may process the following categories of data in particular:
 
-**[Vorname Nachname / Markenname]**  
-[Ort oder vollstaendige Adresse]  
-Schweiz  
-[E-Mail-Adresse]
+### a) Website access data
+When you access this website, technical connection and usage data may be processed, in particular:
 
----
+- IP address
+- date and time of access
+- requested pages, files, and content
+- browser and device information
+- operating system
+- referrer information
+- server log data
 
-## 3. Kategorien verarbeiteter Daten
+This data is typically processed for technical reasons in order to operate the website, maintain security, and analyze errors.
 
-Im Rahmen der technischen Bereitstellung und Lizenzpruefung koennen insbesondere folgende Daten verarbeitet werden:
+### b) Contact data
+If you contact us, we process the information you provide, in particular:
 
-### a) Kauf- und Bestelldaten
-- Name des Kaeufers oder der Organisation
-- E-Mail-Adresse
-- Bestellnummer
-- Produkt-ID / Varianten-ID
-- Lizenzkennung / License Key
-- Angaben des Zahlungsdienstleisters
+- name
+- email address
+- message content
+- any other information you voluntarily send to us
 
-### b) Technische Aktivierungs- und Validierungsdaten
-- Instance-ID
-- Hostname
-- Bootstrapper-Version
-- Produktversion
-- angeforderter Modus oder angeforderte Module/Sections
-- Zeitstempel
-- technische Antwortcodes
-- Integritaets- und Download-Metadaten
+### c) Order and purchase data
+If you purchase a product or intend to do so, data may be processed in connection with the purchase flow, including in particular:
 
-### c) Verbindungs- und Sicherheitsdaten
-- IP-Adresse
-- Request-Header
-- Rate-Limit-Informationen
-- Missbrauchs- und Fehlerlogs
-- serverseitige Protokolldaten
+- name
+- email address
+- company name, if provided
+- order and transaction data
+- product and variant information
+- license-related information
+- information transmitted to us by the sales or payment provider
 
-### d) Supportdaten
-- vom Kunden uebermittelte Log-Dateien
-- State-Dateien
-- Fehlerbeschreibungen
-- sonstige freiwillig uebermittelte Angaben
+### d) Product delivery and license-related data
+To the extent required for the provision, delivery, activation, validation, or protection of digital products, we may process technical data including in particular:
 
----
+- license identifiers or comparable allocation data
+- product or version information
+- timestamps
+- technical status and response data
+- download-related metadata
+- security and abuse-related log data
+- device- or instance-related technical identifiers where required for licensing or download processes
 
-## 4. Zwecke der Verarbeitung
+### e) Support data
+If you request support, we may also process data you provide to us for handling your request, including in particular:
 
-Die Daten werden insbesondere zu folgenden Zwecken verarbeitet:
+- error messages
+- log files
+- configuration or state information
+- descriptions of your environment and issue
 
-- Bereitstellung und Auslieferung des Produkts
-- Aktivierung und Validierung von Lizenzen
-- Kontrolle des vertragsgemaessen Zugangs
-- Verhinderung von Missbrauch, Weitergabe und Mehrfachnutzung ausserhalb des Lizenzumfangs
-- Bereitstellung kurzlebiger Download-Freigaben
-- Fehleranalyse und Betriebssicherheit
-- Bearbeitung von Supportanfragen
-- Erfuellung gesetzlicher Pflichten
-- Durchsetzung oder Abwehr rechtlicher Ansprueche
+## 4. Why we process data
 
----
+We process personal data in particular for the following purposes:
 
-## 5. Rechtsgrundlagen / Rechtfertigung
+- providing and operating the website
+- responding to contact requests
+- processing orders
+- providing and delivering digital products
+- activating, validating, and protecting licenses
+- preventing abuse and unauthorized use
+- ensuring the stability, integrity, and security of our systems
+- troubleshooting and technical support
+- complying with legal obligations
+- establishing, exercising, or defending legal claims
 
-### Schweiz
-Soweit schweizerisches Datenschutzrecht anwendbar ist, erfolgt die Bearbeitung insbesondere:
-- zur Vertragserfuellung
-- zur Wahrung berechtigter Interessen am sicheren Betrieb, an Missbrauchsverhinderung und an der Durchsetzung vertraglicher Rechte
-- zur Erfuellung gesetzlicher Pflichten
+## 5. Sales and payment processing
 
-### EU / EWR
-Soweit die DSGVO anwendbar ist, erfolgt die Verarbeitung insbesondere:
-- zur Erfuellung eines Vertrags oder zur Durchfuehrung vorvertraglicher Massnahmen
-- zur Wahrung berechtigter Interessen
-- zur Erfuellung rechtlicher Verpflichtungen
-- gegebenenfalls auf Basis einer Einwilligung, soweit eine solche im Einzelfall erforderlich ist
+We may use external service providers for the sale of our digital products.
 
----
+Where purchases are handled via **Lemon Squeezy**, checkout as well as purchase-related payment and order processing are carried out through that provider. In that context, purchase- and transaction-related data may be processed by Lemon Squeezy in accordance with its own legal and privacy obligations.
 
-## 6. Herkunft der Daten
+Please also review the privacy information of the relevant checkout or payment provider.
 
-Die Daten stammen insbesondere:
-- aus dem Kaufprozess
-- aus der Lizenzaktivierung und Lizenzvalidierung
-- aus Requests an den Download-Endpoint
-- aus Log- und Telemetriedaten der eingesetzten Systeme
-- aus Supportanfragen des Kunden
-- von externen Zahlungs- oder Verkaufsdienstleistern
+## 6. Disclosure to third parties and processors
 
----
+We may disclose personal data to third parties or have personal data processed by third parties where this is required for the purposes described above. This may include in particular:
 
-## 7. Empfaenger und Auftragsverarbeiter
+- hosting and infrastructure providers
+- providers involved in website operation and technical delivery
+- sales and payment providers
+- email and communication providers
+- support and IT service providers
+- legal advisors, authorities, or courts where legally required or necessary for the enforcement of rights
 
-Daten koennen an folgende Kategorien von Empfaengern uebermittelt oder durch diese verarbeitet werden, soweit dies fuer die genannten Zwecke erforderlich ist:
+We seek to disclose only the data that is required for the respective purpose.
 
-- Zahlungsdienstleister / Merchant of Record
-- Hosting- und Infrastrukturprovider
-- Object-Storage- oder CDN-Anbieter
-- E-Mail- und Support-Dienstleister
-- IT- und Sicherheitsdienstleister
-- Rechtsberater oder Behoerden, soweit rechtlich erforderlich
+## 7. International data transfers
 
-Aktuell ist fuer die kaufbezogene Zahlungsabwicklung **Lemon Squeezy** als Merchant of Record vorgesehen.
+We may process personal data abroad or have personal data processed abroad by service providers.
 
----
+Where data is transferred to countries that do not provide an equivalent level of legal data protection, we use appropriate contractual, technical, or organizational safeguards where legally required.
 
-## 8. Internationale Datenuebermittlung
+## 8. Retention period
 
-Je nach eingesetzten Dienstleistern koennen Daten auch ausserhalb der Schweiz oder des EWR verarbeitet werden.
+We process and store personal data only for as long as necessary for the respective purpose or as required by law.
 
-Soweit erforderlich, erfolgt eine solche Uebermittlung nur unter Beachtung der anwendbaren datenschutzrechtlichen Anforderungen, insbesondere durch geeignete vertragliche, organisatorische oder gesetzliche Garantien.
+In particular, data may be retained:
 
----
+- as long as required to operate the website
+- as long as required for order processing, product delivery, or license-related processes
+- as long as required to handle support requests
+- as long as statutory retention, documentation, or evidentiary obligations apply
+- as long as necessary to establish, exercise, or defend legal claims
 
-## 9. Speicherdauer
+## 9. Data security
 
-Personenbezogene oder technisch zuordenbare Daten werden nur so lange gespeichert, wie dies fuer die genannten Zwecke erforderlich ist.
+We implement appropriate technical and organizational security measures to protect personal data against unauthorized access, loss, misuse, alteration, or unlawful disclosure.
 
-Massgebliche Kriterien sind insbesondere:
-- Dauer der Vertragsbeziehung
-- Dauer des Lizenz- und Supportverhaeltnisses
-- Missbrauchs- und Sicherheitsinteressen
-- gesetzliche Aufbewahrungspflichten
-- Verjaehrungsfristen fuer moegliche Rechtsansprueche
+These measures include in particular:
 
-Support- und Sicherheitslogs werden grundsaetzlich nur fuer einen begrenzten Zeitraum vorgehalten, sofern keine laengere Aufbewahrung im Einzelfall erforderlich ist.
+- access controls
+- system and access protection
+- logging
+- encryption in transit where appropriate
+- integrity and security checks
 
----
+## 10. Your rights
 
-## 10. Pflicht zur Bereitstellung
+To the extent provided by applicable data protection law, data subjects may in particular have the right to:
 
-Bestimmte technische Daten sind fuer die Lizenzaktivierung, Lizenzvalidierung und Download-Freigabe erforderlich.
+- request information about personal data processed concerning them
+- request the correction of inaccurate personal data
+- request deletion of personal data
+- request restriction of processing
+- object to processing
+- withdraw consent with future effect
+- request data delivery or data portability where provided by law
 
-Ohne Bereitstellung dieser Daten kann das Produkt unter Umstaenden nicht aktiviert, nicht validiert oder nicht heruntergeladen werden.
+To exercise such rights, you can contact us at **info@hardenlab.ch**.
 
----
+## 11. Changes to this Privacy Policy
 
-## 11. Automatisierte Entscheidungen
+We may update this Privacy Policy at any time, in particular if our website, services, service providers, or legal requirements change.
 
-Es koennen automatisierte technische Entscheidungen getroffen werden, etwa:
-- Ablehnung ungueltiger Lizenzrequests
-- Sperrung oder Verzoegerung bei Rate Limits
-- Verweigerung eines Downloads bei Produkt- oder Lizenzmismatch
-- Erkennung offensichtlicher Missbrauchsmuster
+The version published on this website shall apply.
 
-Solche Entscheidungen dienen dem sicheren Betrieb und der Durchsetzung des Lizenzmodells.
+## 12. Contact
 
----
+If you have any questions about data protection, you can contact us at:
 
-## 12. Rechte betroffener Personen
-
-Soweit anwendbares Datenschutzrecht dies vorsieht, haben betroffene Personen insbesondere das Recht auf:
-- Auskunft
-- Berichtigung
-- Loeschung
-- Einschraenkung der Verarbeitung
-- Widerspruch
-- Datenherausgabe oder Datenuebertragung, soweit gesetzlich vorgesehen
-- Widerruf einer Einwilligung mit Wirkung fuer die Zukunft
-
-Anfragen koennen an die oben genannte Kontaktadresse gerichtet werden.
-
----
-
-## 13. Sicherheitsmassnahmen
-
-Es werden angemessene technische und organisatorische Massnahmen getroffen, um Daten vor unbefugtem Zugriff, Verlust, Missbrauch, Manipulation oder unzulaessiger Offenlegung zu schuetzen.
-
-Dazu gehoeren insbesondere:
-- Zugriffsbeschraenkungen
-- Protokollierung
-- Transportverschluesselung
-- Integritaetspruefungen
-- kurzlebige Download-Freigaben
-- Massnahmen zur Missbrauchserkennung
-
----
-
-## 14. Externe Dienste und Drittkomponenten
-
-Fuer Kaufabwicklung, Download-Auslieferung, Infrastruktur, Hosting, Storage oder Support koennen externe Dienste eingesetzt werden.
-
-Zudem kann das Produkt Drittkomponenten wie **LGPO.exe** voraussetzen. Solche Komponenten unterliegen ihren eigenen Nutzungsbedingungen und koennen eigene Datenverarbeitungen ausloesen, fuer die der jeweilige Drittanbieter verantwortlich ist.
-
----
-
-## 15. Aenderungen dieser Datenschutzerklaerung
-
-Diese Datenschutzerklaerung kann angepasst werden, wenn sich rechtliche, technische oder organisatorische Rahmenbedingungen aendern.
-
-Massgeblich ist jeweils die zum Zeitpunkt der Nutzung veroeffentlichte Fassung.
+**info@hardenlab.ch**

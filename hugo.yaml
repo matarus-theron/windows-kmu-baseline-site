@@ -34,14 +34,6 @@ languages:
           name: About
           pageRef: /about
           weight: 5
-        - identifier: pricacy
-          name: Datenschutz
-          pageRef: /privacy
-          weight: 6
-        - identifier: license
-          name: Lizenz
-          pageRef: /license
-          weight: 7
         - identifier: language
           name: Sprache
           weight: 98
@@ -81,14 +73,6 @@ languages:
           name: About
           pageRef: /about
           weight: 5
-        - identifier: pricacy
-          name: pricacy
-          pageRef: /privacy
-          weight: 6
-        - identifier: license
-          name: license
-          pageRef: /license
-          weight: 7
         - identifier: language
           name: Language
           weight: 98
