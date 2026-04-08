@@ -61,3 +61,6 @@ params:
   footer:
     displayCopyright: true
     displayPoweredBy: false
+  theme:
+    default: dark
+    displayToggle: true
