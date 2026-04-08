@@ -19,7 +19,7 @@ languages:
           pageRef: /product
           weight: 1
         - identifier: get-started
-          name: Get Started
+          name: Einstieg
           pageRef: /get-started
           weight: 2
         - identifier: buy
@@ -31,7 +31,7 @@ languages:
           pageRef: /faq
           weight: 4
         - identifier: about
-          name: About
+          name: Über
           pageRef: /about
           weight: 5
         - identifier: language
@@ -93,7 +93,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: icon.svg
+      path: icon-light.svg
       dark: icon.svg
       link: /
       width: 34
